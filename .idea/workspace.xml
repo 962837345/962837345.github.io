@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="84a42ad0-415e-44d3-ad6e-65b3d7303baa" name="默认更改列表" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/my-blog/package.json" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/webpack/webpack的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/vue/v-model的使用及实现原理.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/vue/v-show和v-if的区别.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/vue/vue中的通信.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/vue/Promise的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/vue/vue-router的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/vue/vuex的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/es6/Promise的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/es6/axios的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/js/JavaScript高阶函数的使用.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/components/better-scroll的使用与封装.md" />
+        <option value="$PROJECT_DIR$/my-blog/.vuepress/styles/palette.styl" />
+        <option value="$PROJECT_DIR$/my-blog/docs/theme-reco/README.md" />
+        <option value="$PROJECT_DIR$/my-blog/docs/vue/v-show和v-if的区别.md" />
+        <option value="$PROJECT_DIR$/my-blog/blogs/webpack/webpack的基本配置.md" />
+        <option value="$PROJECT_DIR$/my-blog/docs/vue/v-model的使用及实现原理.md" />
+        <option value="$PROJECT_DIR$/my-blog/docs/vue/README.md" />
+        <option value="$PROJECT_DIR$/my-blog/README.md" />
+        <option value="$PROJECT_DIR$/my-blog/.vuepress/config.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="655" />
+    <option name="y" value="45" />
+    <option name="width" value="1200" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\.vuepress\public" />
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\docs\es6" />
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\docs\vue" />
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\docs\theme-reco" />
+      <recent name="G:\ideaProject\vuepressDemo\my-blog" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\docs" />
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\blogs\es6" />
+      <recent name="G:\ideaProject\vuepressDemo\my-blog\.vuepress\public" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="84a42ad0-415e-44d3-ad6e-65b3d7303baa" name="默认更改列表" comment="" />
+      <created>1594798085968</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594798085968</updated>
+      <workItem from="1594798087267" duration="650000" />
+      <workItem from="1594800070697" duration="17190000" />
+      <workItem from="1594857314295" duration="26912000" />
+      <workItem from="1594907232744" duration="1041000" />
+      <workItem from="1594908437872" duration="2427000" />
+      <workItem from="1594916798717" duration="902000" />
+      <workItem from="1594947352362" duration="3101000" />
+      <workItem from="1594951444227" duration="1635000" />
+    </task>
+    <task id="LOCAL-00001" summary="change background">
+      <created>1594912511773</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594912511773</updated>
+    </task>
+    <task id="LOCAL-00002" summary="commit my-blog">
+      <created>1594916890205</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1594916890205</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit background">
+      <created>1594917088842</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594917088842</updated>
+    </task>
+    <task id="LOCAL-00004" summary="git commit">
+      <created>1594949075687</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594949075688</updated>
+    </task>
+    <task id="LOCAL-00005" summary="git commit">
+      <created>1594949278712</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594949278712</updated>
+    </task>
+    <task id="LOCAL-00006" summary="background commit">
+      <created>1594949527791</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594949527791</updated>
+    </task>
+    <task id="LOCAL-00007" summary="background commit">
+      <created>1594949807911</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594949807911</updated>
+    </task>
+    <task id="LOCAL-00008" summary="background commit">
+      <created>1594949862735</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594949862735</updated>
+    </task>
+    <task id="LOCAL-00009" summary="git first commit">
+      <created>1594951568167</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1594951568167</updated>
+    </task>
+    <task id="LOCAL-00010" summary="background commit">
+      <created>1594951891118</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1594951891118</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="53858000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="设计器" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3281471" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2407932" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info anchor="right" id="调色板" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="change background" />
+    <MESSAGE value="commit my-blog" />
+    <MESSAGE value="commit background" />
+    <MESSAGE value="git commit" />
+    <MESSAGE value="git first commit" />
+    <MESSAGE value="background commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="background commit" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/logo.png" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/avatar.png" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/my-blog/blogs/category2/2017/092101.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.gitignore" />
+    <entry file="file://$PROJECT_DIR$/my-blog/yarn.lock" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/hero.png" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/background.png" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/portrait.jpg" />
+    <entry file="file://$PROJECT_DIR$/my-blog/blogs/category1/2019/092101.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/blogs/category1/2018/121501.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/blogs/category2/2016/121501.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/theme-reco/theme.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/es6/axios的使用.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/js/JavaScript高阶函数的使用.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/es6/Promise的使用.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/components/better-scroll的使用与封装.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/styles/palette.styl" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/theme-reco/v-show和v-if的区别.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/theme-reco/api.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/theme-reco/plugin.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/package.json" />
+    <entry file="file://$PROJECT_DIR$/my-blog/blogs/webpack/webpack的基本配置.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/vue/vue中的通信.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/vue/vue-router的使用.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/theme-reco/README.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/vue/vuex的使用.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/es6/abc.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/aaa.gif" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/111.gif" />
+    <entry file="file://$PROJECT_DIR$/my-blog/blogs/other/guide.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/vue/v-model的使用及实现原理.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/public/background.gif" />
+    <entry file="file://$PROJECT_DIR$/my-blog/docs/vue/v-show和v-if的区别.md" />
+    <entry file="file://$PROJECT_DIR$/my-blog/.vuepress/config.js" />
+    <entry file="file://$PROJECT_DIR$/my-blog/README.md" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5472" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vuepressDemo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
