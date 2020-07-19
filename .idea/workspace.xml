@@ -2,64 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/reflections/git基础命令.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/project/aaa.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/project/abcdefg.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/11.30dd931c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/12.6900f5d0.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/13.c398b185.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/14.cdae8a77.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/15.79e0522f.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/16.54a58107.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/17.9e2c41da.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/18.24ab4099.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/20.050fc5c2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/21.378e3d15.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/22.a5e6e1d7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/23.e491c9e4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/24.d12740d1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/25.2f9d7f62.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/26.4d31f1ce.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/27.dfc15371.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/8.2d6ba7fe.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.497f1fa1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/components/better-scroll的使用与封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/components/better-scroll的使用与封装.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/es6/Promise的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/es6/Promise的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/es6/axios的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/es6/axios的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/js/JavaScript高阶函数的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/js/JavaScript高阶函数的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/other/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/other/guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/v-model的使用及实现原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/v-model的使用及实现原理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/v-show和v-if的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/v-show和v-if的区别.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue-router的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue-router的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vuex的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vuex的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue中的通信.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue中的通信.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/webpack/webpack的基本配置.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/webpack/webpack的基本配置.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/个人随笔/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/个人随笔/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/项目实践/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/项目实践/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/project/aaa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/project/abcdefg.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/project/moguMall.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/project/moguMall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/vuepress的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/vuepress的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/ES6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/ES6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/VuePress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/VuePress/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/better-scroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/better-scroll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/git/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/vue-router/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue-router/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/vuex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vuex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/webpack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/webpack/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/timeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/timeline/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -83,12 +28,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="61">
-                <caret line="55" selection-start-line="55" selection-end-line="55" />
+              <first_editor relative-caret-position="308">
+                <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/reflections/git基础命令.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="209">
+                <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,6 +68,8 @@
         <option value="$PROJECT_DIR$/docs/project/aaa.md" />
         <option value="$PROJECT_DIR$/docs/project/abcdefg.md" />
         <option value="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" />
+        <option value="$PROJECT_DIR$/docs/reflections/git基础.md" />
+        <option value="$PROJECT_DIR$/docs/reflections/git基础命令.md" />
       </list>
     </option>
   </component>
@@ -128,6 +87,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,7 +111,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -227,7 +186,8 @@
       <workItem from="1595076436914" duration="2105000" />
       <workItem from="1595086321529" duration="5088000" />
       <workItem from="1595126338434" duration="710000" />
-      <workItem from="1595127990034" duration="521000" />
+      <workItem from="1595127990034" duration="1792000" />
+      <workItem from="1595141339720" duration="3981000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -303,12 +263,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32750000" />
+    <option name="totallyTimeSpent" value="38002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26675603" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -325,7 +286,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3101983" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31586403" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -570,8 +531,18 @@
     <entry file="file://$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="61">
-            <caret line="55" selection-start-line="55" selection-end-line="55" />
+          <first_editor relative-caret-position="308">
+            <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/reflections/git基础命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           </first_editor>
           <second_editor />
         </state>
