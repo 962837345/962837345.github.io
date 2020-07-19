@@ -81,7 +81,9 @@ module.exports = {
         {
           "title": "JS",
           "children": [
-            "js/JavaScript高阶函数的使用"
+            "js/JavaScript高阶函数的使用",
+            "js/防抖和节流",
+            "js/JS中的call()和apply()"
           ]
         },
         {

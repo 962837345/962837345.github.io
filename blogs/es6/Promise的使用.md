@@ -73,6 +73,35 @@ export default {
 </script>
 ```
 
+## Promise.all()的原理实现
+Promise.all()返回的是一个Promise实例
+```js
+Promise.all = function (promise) {
+    return new Promise((resolve, reject) => {
+        let index = 0;
+        let result = [];
+        if (promise.length === 0) {
+            resolve(result)
+        } else {
+            function processValue(i, data) {
+                result[i] = data;
+                if (++index === promise.length) {
+                    resolve(result)
+                }
+            }
+            for (let i = 0; i < promise.length; i++) {
+                Promise.resolve(promise[i]).then((data) => {
+                    processValue(i, data)
+                }, (err) => {
+                    reject(err);
+                    return
+                })
+            }
+        }
+    })
+}
+```
+
 ### Promise.race()
 参数跟Promise.all()一样，区别在于Promise.race()当其中某个一个实例率先改变状态就传递对应实例的返回值
 

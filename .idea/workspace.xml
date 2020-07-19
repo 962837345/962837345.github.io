@@ -2,9 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
-      <change afterPath="$PROJECT_DIR$/docs/reflections/git基础命令.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/js/JS中的call()和apply().md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/js/防抖和节流.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/public/portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/public/portrait.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blogs/es6/Promise的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/es6/Promise的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/10.4ea8da52.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/11.75bee056.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/12.6900f5d0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/13.5ad06e6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/14.a48e46c1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/15.79e0522f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/16.d6933930.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/17.b62330b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/18.24ab4099.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/19.151c419e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/20.55649f84.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/21.1d151278.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/22.9f3eb971.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/23.ef6c8e24.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/24.5158623b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/25.f7ce07f1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/26.3e524875.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/8.5ffb3beb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/app.998560db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/components/better-scroll的使用与封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/components/better-scroll的使用与封装.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/es6/Promise的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/es6/Promise的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/es6/axios的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/es6/axios的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/js/JavaScript高阶函数的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/js/JavaScript高阶函数的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/other/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/other/guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/vue/v-model的使用及实现原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/v-model的使用及实现原理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/vue/v-show和v-if的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/v-show和v-if的区别.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue-router的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue-router的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vuex的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vuex的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue中的通信.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue中的通信.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/webpack/webpack的基本配置.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/webpack/webpack的基本配置.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/个人随笔/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/个人随笔/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/项目实践/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/项目实践/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/project/moguMall.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/project/moguMall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/reflections/git基础命令.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/git基础命令.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/reflections/vuepress的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/vuepress的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/portrait.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/portrait.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/ES6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/ES6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/VuePress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/VuePress/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/better-scroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/better-scroll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/git/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/vue-router/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue-router/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/vuex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vuex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/webpack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/webpack/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/timeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/timeline/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -18,22 +76,23 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+        <entry file="file://$PROJECT_DIR$/blogs/webpack/webpack的基本配置.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-456" />
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md">
+        <entry file="file://$PROJECT_DIR$/blogs/es6/axios的使用.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="308">
-                <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+              <first_editor relative-caret-position="323">
+                <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -41,12 +100,83 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/reflections/git基础命令.md">
+        <entry file="file://$PROJECT_DIR$/blogs/es6/Promise的使用.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="209">
-                <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <first_editor relative-caret-position="-251">
+                <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
               </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/components/better-scroll的使用与封装.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1576" />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/other/guide.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-38">
+                <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/vue/v-model的使用及实现原理.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/vue/v-show和v-if的区别.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/vue/vue-router的使用.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blogs/js/JavaScript高阶函数的使用.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="-1367" />
               <second_editor />
             </state>
           </provider>
@@ -64,14 +194,24 @@
         <option value="$PROJECT_DIR$/deploy.sh" />
         <option value="$PROJECT_DIR$/docs/reflections/git-commit的回滚.md" />
         <option value="$PROJECT_DIR$/docs/project/test.md" />
-        <option value="$PROJECT_DIR$/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/project/aaa.md" />
         <option value="$PROJECT_DIR$/docs/project/abcdefg.md" />
         <option value="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" />
         <option value="$PROJECT_DIR$/docs/reflections/git基础.md" />
         <option value="$PROJECT_DIR$/docs/reflections/git基础命令.md" />
+        <option value="$PROJECT_DIR$/blogs/js/抖动和节流.md" />
+        <option value="$PROJECT_DIR$/blogs/js/JS中的call()和apply().md" />
+        <option value="$PROJECT_DIR$/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/blogs/js/防抖和节流.md" />
+        <option value="$PROJECT_DIR$/blogs/es6/Promise的使用.md" />
       </list>
     </option>
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="655" />
@@ -87,7 +227,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -98,7 +237,59 @@
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="other" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="webpack" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -111,10 +302,12 @@
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -122,9 +315,13 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\ideaProject\my-blog" />
     </key>
@@ -187,7 +384,8 @@
       <workItem from="1595086321529" duration="5088000" />
       <workItem from="1595126338434" duration="710000" />
       <workItem from="1595127990034" duration="1792000" />
-      <workItem from="1595141339720" duration="3981000" />
+      <workItem from="1595141339720" duration="7615000" />
+      <workItem from="1595166573177" duration="5921000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -263,13 +461,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38002000" />
+    <option name="totallyTimeSpent" value="47557000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27010724" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27345845" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -286,7 +483,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31586403" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31444758" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -357,14 +554,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="change title" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/blogs/js/JavaScript高阶函数的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/404.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -378,24 +567,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/blogs/other/guide.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/other/guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/project/moguMall.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-141" />
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/blogs/vue/vue中的通信.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -483,28 +654,8 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/reflections/vuepress的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/reflections/git-commit的回滚.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yarn.lock">
       <provider selected="true" editor-type-id="text-editor">
@@ -521,18 +672,65 @@
     <entry file="file://$PROJECT_DIR$/docs/project/test.md" />
     <entry file="file://$PROJECT_DIR$/docs/project/abcdefg.md" />
     <entry file="file://$PROJECT_DIR$/docs/project/aaa.md" />
-    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+    <entry file="file://$PROJECT_DIR$/.vuepress/public/portrait.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/project/moguMall.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-114" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/js/JS中的call()和apply().md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="110">
+            <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="308">
-            <caret line="80" column="3" lean-forward="true" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          <first_editor relative-caret-position="992">
+            <caret line="80" column="3" selection-start-line="80" selection-start-column="3" selection-end-line="80" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/reflections/vuepress的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1197">
+            <caret selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/js/防抖和节流.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="115">
+            <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/reflections/git-commit的回滚.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-399">
+            <caret line="3" selection-start-line="3" selection-end-line="6" selection-end-column="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -541,8 +739,93 @@
     <entry file="file://$PROJECT_DIR$/docs/reflections/git基础命令.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="209">
+          <first_editor relative-caret-position="-836">
             <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/webpack/webpack的基本配置.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-456" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/other/guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-38">
+            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/vue/v-model的使用及实现原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/vue/v-show和v-if的区别.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/vue/vue-router的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/js/JavaScript高阶函数的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1367" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/components/better-scroll的使用与封装.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1576" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="85" column="35" lean-forward="true" selection-start-line="85" selection-start-column="35" selection-end-line="85" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/es6/axios的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="323">
+            <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/es6/Promise的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-251">
+            <caret line="77" column="5" lean-forward="true" selection-start-line="77" selection-start-column="5" selection-end-line="77" selection-end-column="5" />
           </first_editor>
           <second_editor />
         </state>
