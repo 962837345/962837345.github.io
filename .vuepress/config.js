@@ -87,6 +87,12 @@ module.exports = {
           ]
         },
         {
+          "title": "CSS",
+          "children": [
+            "css/flex布局"
+          ]
+        },
+        {
           "title": "webpack",
           "children": [
             "webpack/webpack的基本配置"

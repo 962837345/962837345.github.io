@@ -8,7 +8,7 @@ categories:
   - 前端笔记 
 ---
 
-### 使用Promise解决异步问题
+## 使用Promise解决异步问题
 ```vue
 <template>
   <el-button @click="clickButton">点击我</el-button>
@@ -37,7 +37,7 @@ categories:
 </script>
 ```
 
-### Promise.all()
+## Promise.all()
 当所有请求都响应后再对数据进行处理可以使用Promise.all()
 
 Promise.all()中传入一个迭代类型的Promise，可以大致理解为一个包含Promise的数组，即Promise.all([promise1,promise2])
@@ -102,7 +102,7 @@ Promise.all = function (promise) {
 }
 ```
 
-### Promise.race()
+## Promise.race()
 参数跟Promise.all()一样，区别在于Promise.race()当其中某个一个实例率先改变状态就传递对应实例的返回值
 
 Promise.all()和Promise.race()原理可以理解为&&(或)和||(与)

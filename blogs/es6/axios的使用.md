@@ -8,7 +8,7 @@ categories:
   - 前端笔记 
 ---
 
-### axios实例和模块封装
+## axios实例和模块封装
 使用axios实例而不是使用axios全局对象可以方便以后扩展使用不同ip地址
 
 对axios进行模块封装可以使得更方便维护
@@ -52,7 +52,7 @@ export function request(config) {
 </script>
 ```
 
-### axios拦截器
+## axios拦截器
 ```js
   //请求拦截
   instance.interceptors.request.use(config => {

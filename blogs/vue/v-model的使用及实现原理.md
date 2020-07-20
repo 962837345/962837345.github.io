@@ -31,6 +31,7 @@ export default {
 
 ### v-on
 #### v-on用于绑定methods中的变量,v-on可以使用语法糖，直接用@绑定方法
+
 ```vue
 <template>
   <el-button @click="click" >click me</el-button>
