@@ -1,6 +1,6 @@
 ---
 title: vue中的通信
-data: 2020-07-16
+date: 2020-07-16
 tags:
   - vue
 categories:

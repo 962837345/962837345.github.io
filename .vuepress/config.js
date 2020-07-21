@@ -68,7 +68,8 @@ module.exports = {
             "vue/v-show和v-if的区别",
             "vue/vue-router的使用",
             "vue/vue中的通信",
-            "vue/vuex的使用"
+            "vue/vuex的使用",
+            "vue/vue的响应式原理"
           ]
         },
         {

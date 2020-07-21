@@ -1,7 +1,7 @@
 ---
 title: JS中的call()和apply()
 date: 2020-07-19
-tagg:
+tags:
  - JS
 categories:
  - 前端笔记
