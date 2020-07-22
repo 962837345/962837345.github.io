@@ -90,7 +90,8 @@ module.exports = {
         {
           "title": "CSS",
           "children": [
-            "css/flex布局"
+            "css/flex布局",
+            "css/css动画"
           ]
         },
         {
