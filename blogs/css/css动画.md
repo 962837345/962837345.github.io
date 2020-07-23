@@ -147,6 +147,6 @@ div
 * animation-timing-function	规定动画的速度曲线。默认是 "ease"
 * animation-fill-mode	规定当动画不播放时（当动画完成时，或当动画有一个延迟未开始播放时），要应用到元素的样式
 * animation-delay	规定动画何时开始。默认是 0
-* animation-iteration-count	规定动画被播放的次数。默认是 1
+* animation-iteration-count	规定动画被播放的次数。默认是 1,infinite为无限循环
 * animation-direction	规定动画是否在下一周期逆向地播放。默认是 "normal"
 * animation-play-state	规定动画是否正在运行或暂停。默认是 "running"

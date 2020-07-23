@@ -91,7 +91,8 @@ module.exports = {
           "title": "CSS",
           "children": [
             "css/flex布局",
-            "css/css动画"
+            "css/css动画",
+            "css/渐变背景动画"
           ]
         },
         {
@@ -144,5 +145,12 @@ module.exports = {
   },
   "markdown": {
     "lineNumbers": true
-  }
+  },
+  plugins: [['@vuepress-reco/comments', {
+    solution: 'valine',
+    options: {
+      appId: 'vuKAlEHhQT9IpA3PNgWR8YT7-gzGzoHsz',
+      appKey: 'QNvp8Muda64iV3RpUjBXvgch',
+    }
+  }]]
 };
