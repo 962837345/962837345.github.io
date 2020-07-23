@@ -60,7 +60,7 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/blogs/": [
+      "/docs/": [
         {
           "title": "Vue",
           "children": [
@@ -141,16 +141,14 @@ module.exports = {
     "author": "kellen",
     "authorAvatar": "/portrait.jpg",
     "record": null,
-    "startYear": "2020"
+    "startYear": "2020",
+    "valineConfig": {
+      "appId": 'vuKAlEHhQT9IpA3PNgWR8YT7-gzGzoHsz',
+      "appKey": 'QNvp8Muda64iV3RpUjBXvgch',
+      "visitor": true,
+    }
   },
   "markdown": {
     "lineNumbers": true
   },
-  plugins: [['@vuepress-reco/comments', {
-    solution: 'valine',
-    options: {
-      appId: 'vuKAlEHhQT9IpA3PNgWR8YT7-gzGzoHsz',
-      appKey: 'QNvp8Muda64iV3RpUjBXvgch',
-    }
-  }]]
 };
