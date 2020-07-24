@@ -2,10 +2,10 @@
 title: Promise的使用
 date: 2020-07-16
 tags:
-  - vue
-  - ES6
+ - vue
+ - ES6
 categories:
-  - 前端笔记 
+ - 前端笔记 
 ---
 
 ## 使用Promise解决异步问题

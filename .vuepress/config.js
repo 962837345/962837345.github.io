@@ -76,15 +76,22 @@ module.exports = {
           "title": "ES6",
           "children": [
             "es6/Promise的使用",
-            "es6/axios的使用"
+            "es6/axios的使用",
+            "es6/let和const"
           ]
         },
         {
           "title": "JS",
           "children": [
+            "js/JS作用域",
+            "js/JS的关键字",
+            "js/原型对象",
+            "js/JS中的栈和堆",
+            "js/数组的方法",
+            "js/JS中的call()和apply()",
+            "js/arguments",
             "js/JavaScript高阶函数的使用",
             "js/防抖和节流",
-            "js/JS中的call()和apply()"
           ]
         },
         {

@@ -2,10 +2,10 @@
 title: axios的使用
 date: 2020-07-16
 tags:
-  - vue
-  - ES6
+ - vue
+ - ES6
 categories:
-  - 前端笔记 
+ - 前端笔记 
 ---
 
 ## axios实例和模块封装

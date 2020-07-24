@@ -2,91 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
+      <change afterPath="$PROJECT_DIR$/.vuepress/components/text.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/es6/let和const.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/JS中的栈和堆.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/JS作用域.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/JS的关键字.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/arguments.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/原型对象.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/js/数组的方法.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/components/BgIcon.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/components/better-scroll的使用与封装.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/components/better-scroll的使用与封装.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/css/css动画.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/css动画.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/css/flex布局.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/flex布局.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/css/渐变背景动画.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/渐变背景动画.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/es6/Promise的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/Promise的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/es6/axios的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/axios的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/js/JS中的call()和apply().md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/JS中的call()和apply().md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/js/JavaScript高阶函数的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/js/防抖和节流.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/防抖和节流.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/vue/v-model的使用及实现原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/v-model的使用及实现原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/vue/v-show和v-if的区别.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/v-show和v-if的区别.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/vue/vue-router的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/vue-router的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/vue/vuex的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/vuex的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/vue/vue中的通信.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/vue中的通信.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/vue/vue的响应式原理.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/vue的响应式原理.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/webpack/webpack的基本配置.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/webpack/webpack的基本配置.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/project/moguMall.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/project/moguMall.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/reflections/git-commit的回滚.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/reflections/git-commit的回滚.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/reflections/git基础命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/reflections/git基础命令.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/reflections/vuepress的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/reflections/vuepress的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/reflections/将vuepress部署到github或gitee.md" beforeDir="false" afterPath="$PROJECT_DIR$/blogs/reflections/将vuepress部署到github或gitee.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/0.styles.1b733c2a.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/14.3b0e4ee4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/15.ef5863d4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/16.0275861d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/17.dd9cedb7.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/19.32a3ec33.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/20.191ff730.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/21.a8485f9c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/22.cc3b6187.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/24.ffda2f0a.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/25.8b626284.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/26.83277527.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/27.7b3a393c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/28.37973145.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/29.63278939.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/30.415fc1fa.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/31.b1a0485c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/js/app.546a1a4b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/components/better-scroll的使用与封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/components/better-scroll的使用与封装.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/css/css动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/css/css动画.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/css/flex布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/css/flex布局.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/css/渐变背景动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/css/渐变背景动画.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/es6/Promise的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/es6/Promise的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/es6/axios的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/es6/axios的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/js/JS中的call()和apply().html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/js/JS中的call()和apply().html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/js/JavaScript高阶函数的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/js/JavaScript高阶函数的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/js/防抖和节流.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/js/防抖和节流.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/other/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/other/guide.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/v-model的使用及实现原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/v-model的使用及实现原理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/v-show和v-if的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/v-show和v-if的区别.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue-router的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue-router的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vuex的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vuex的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue中的通信.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue中的通信.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/vue/vue的响应式原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/vue/vue的响应式原理.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/blogs/webpack/webpack的基本配置.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/webpack/webpack的基本配置.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/个人随笔/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/个人随笔/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/2/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/categories/项目实践/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/项目实践/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/project/moguMall.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/project/moguMall.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/git基础命令.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/git基础命令.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/vuepress的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/vuepress的使用.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/CSS3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/CSS3/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/ES6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/ES6/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/Project/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/VuePress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/VuePress/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/better-scroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/better-scroll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/git/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/vue-router/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue-router/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/vuex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vuex/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/tag/webpack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/webpack/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/timeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/timeline/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/es6/Promise的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/Promise的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/es6/axios的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/axios的使用.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -99,14 +27,98 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="my-blog" />
+  </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/js/防抖和节流.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/js/JS中的call()和apply().md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+                <folding>
+                  <element signature="n#!!doc" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+                <folding>
+                  <element signature="n#style#0;n#span#0;n#template#0;n#!!top" expanded="true" />
+                  <element signature="n#style#0;n#span#1;n#template#0;n#!!top" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/es6/axios的使用.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <caret selection-end-line="8" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/docs/es6/let和const.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="57">
+                <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/es6/Promise的使用.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="133">
+                <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -152,7 +164,19 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.vuepress/enhance.js" />
         <option value="$PROJECT_DIR$/docs/css/流光文字.md" />
+        <option value="$PROJECT_DIR$/docs/js/垃圾回收.md" />
+        <option value="$PROJECT_DIR$/.vuepress/components/text.html" />
         <option value="$PROJECT_DIR$/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/docs/js/数组的方法.md" />
+        <option value="$PROJECT_DIR$/docs/js/原型对象.md" />
+        <option value="$PROJECT_DIR$/docs/js/JS的关键字.md" />
+        <option value="$PROJECT_DIR$/docs/js/JS作用域.md" />
+        <option value="$PROJECT_DIR$/docs/js/JS中的栈和堆.md" />
+        <option value="$PROJECT_DIR$/docs/js/arguments.md" />
+        <option value="$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md" />
+        <option value="$PROJECT_DIR$/docs/es6/Promise的使用.md" />
+        <option value="$PROJECT_DIR$/docs/es6/axios的使用.md" />
+        <option value="$PROJECT_DIR$/docs/es6/let和const.md" />
       </list>
     </option>
   </component>
@@ -209,16 +233,35 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="es6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="vue" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -231,16 +274,16 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\my-blog\docs" />
+      <recent name="G:\ideaProject\my-blog\blogs" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\ideaProject\my-blog\.vuepress\public" />
       <recent name="G:\ideaProject\my-blog\.vuepress\components" />
       <recent name="G:\ideaProject\my-blog\.vuepress\public\felx" />
       <recent name="G:\ideaProject\my-blog" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\ideaProject\my-blog\docs" />
-      <recent name="G:\ideaProject\my-blog\blogs" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -255,7 +298,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.dev">
+  <component name="RunManager" selected="JavaScript Debug.text.html">
+    <configuration name="text.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-blog/.vuepress/components/text.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -280,6 +326,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.text.html" />
         <item itemvalue="npm.dev" />
         <item itemvalue="npm.build" />
       </list>
@@ -307,7 +354,8 @@
       <workItem from="1595340754056" duration="3496000" />
       <workItem from="1595395858937" duration="11988000" />
       <workItem from="1595464243095" duration="14444000" />
-      <workItem from="1595491757163" duration="545000" />
+      <workItem from="1595491757163" duration="1721000" />
+      <workItem from="1595550601632" duration="23377000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -383,29 +431,38 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89443000" />
+    <option name="totallyTimeSpent" value="113996000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2935657" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.29758713" />
+      <window_info id="Structure" order="1" sideWeight="0.50117093" side_tool="true" weight="0.29758713" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Favorites" order="6" sideWeight="0.50117093" side_tool="true" weight="0.29758713" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.39518413" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.33002833" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -476,73 +533,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="change title" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/css/0.styles.74f15e9a.css" />
-    <entry file="file://$PROJECT_DIR$/public/assets/img/home-bg.7b267d7c.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/js/14.90c6e042.js" />
-    <entry file="file://$PROJECT_DIR$/public/background.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/docs/reflections/将vuepress部署到github或gitee.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#header#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#nav#0;n#div#1;n#header#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#3;n#nav#0;n#div#1;n#header#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#5;n#nav#0;n#div#1;n#header#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#1;n#nav#0;n#aside#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#3;n#nav#0;n#aside#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#5;n#nav#0;n#aside#0;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h3#0;n#div#2;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#label#0;n#div#2;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#2;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#main#0;n#div#3;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#main#0;n#div#3;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#19679#19685#0" expanded="true" />
-            <element signature="e#19697#19703#0" expanded="true" />
-            <element signature="e#19896#19900#1" expanded="true" />
-            <element signature="e#19941#19945#1" expanded="true" />
-            <element signature="e#19982#19986#1" expanded="true" />
-            <element signature="e#20027#20031#1" expanded="true" />
-            <element signature="e#20760#20764#0" expanded="true" />
-            <element signature="e#20769#20773#0" expanded="true" />
-            <element signature="e#20852#20856#0" expanded="true" />
-            <element signature="e#20868#20872#0" expanded="true" />
-            <element signature="e#21708#21712#0" expanded="true" />
-            <element signature="e#21724#21728#0" expanded="true" />
-            <element signature="n#style#0;n#footer#0;n#main#0;n#div#3;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#main#0;n#div#3;n#main#0;n#div#2;n#div#2;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/deploy.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/docs/reflections/git-commit的回滚.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -599,16 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/vue/v-model的使用及实现原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/project/moguMall.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -619,57 +599,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/es6/Promise的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-            <folding>
-              <element signature="n#style#0;n#span#0;n#template#0;n#!!top" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/vue/vue的响应式原理.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="57">
             <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/JS中的call()和apply().md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-            <folding>
-              <element signature="n#!!doc" expanded="true" />
-            </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/防抖和节流.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/es6/axios的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>
@@ -695,16 +629,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="38">
-            <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blogs/css/text.md" />
     <entry file="file://$PROJECT_DIR$/.vuepress/components/BgAnimation.vue">
       <provider selected="true" editor-type-id="text-editor">
@@ -714,26 +638,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/components/flex.vue" />
-    <entry file="file://$PROJECT_DIR$/docs/css/flex布局.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/css动画.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="114">
-            <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -791,16 +695,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/渐变背景动画.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/my-blog.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -809,48 +703,195 @@
     <entry file="file://$PROJECT_DIR$/.vuepress/public/avatar.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/public/font-awesome.min.css">
+    <entry file="file://$PROJECT_DIR$/.vuepress/public/font-awesome.min.css" />
+    <entry file="file://$PROJECT_DIR$/.vuepress/enhance.js" />
+    <entry file="file://$PROJECT_DIR$/.vuepress/components/StreamerCharacters.vue" />
+    <entry file="file://$PROJECT_DIR$/docs/css/流光文字.md" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        <state relative-caret-position="92">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/enhance.js">
+    <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="38" lean-forward="true" selection-start-column="38" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/components/StreamerCharacters.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="2" column="54" lean-forward="true" selection-start-line="2" selection-start-column="54" selection-end-line="2" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/流光文字.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="171">
-            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          </first_editor>
-          <second_editor />
+        <state relative-caret-position="323">
+          <caret line="17" column="47" selection-start-line="17" selection-start-column="47" selection-end-line="17" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="94" column="24" lean-forward="true" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
+        <state relative-caret-position="54">
+          <caret line="79" column="26" selection-start-line="79" selection-start-column="26" selection-end-line="79" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+    <entry file="file://$PROJECT_DIR$/docs/vue/v-model的使用及实现原理.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="684">
+            <caret line="36" column="49" lean-forward="true" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/css动画.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="7" lean-forward="true" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/渐变背景动画.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/css/flex布局.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="95">
+            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/JS的关键字.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/原型对象.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/数组的方法.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="114">
+            <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/JS中的栈和堆.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/JS作用域.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="5" lean-forward="true" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/arguments.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="76">
+            <caret line="4" selection-start-line="4" selection-end-line="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/防抖和节流.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/es6/Promise的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="133">
+            <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/JS中的call()和apply().md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/JavaScript高阶函数的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="5" lean-forward="true" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+            <folding>
+              <element signature="n#style#0;n#span#0;n#template#0;n#!!top" expanded="true" />
+              <element signature="n#style#0;n#span#1;n#template#0;n#!!top" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/es6/axios的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="8" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/es6/let和const.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="57">
+            <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
