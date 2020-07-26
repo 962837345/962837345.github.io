@@ -3,6 +3,7 @@ title: let和const
 date: 2020-07-24
 tags:
  - ES6
+ - JS
 categories:
  - 前端笔记 
 ---

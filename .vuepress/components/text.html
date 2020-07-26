@@ -5,17 +5,15 @@
   <title>Test</title>
 </head>
 <body>
-  <script>
+  <div id="di" style="width: 100px;height: 100px; padding: 30px;margin: 10px;background-color: red; overflow: auto">
+    <div style="height: 400px;background-color: blue"></div>
+  </div>
 
-    const person = {
-      name: "小明",
-      age: 18,
-      sex: "男"
-    }
-    console.log(person) //{name:"小明",age:18,sex:"男"}
-    person.age = 20
-    console.log(person) //{name:"小明",age:20,sex:"男"}
-    person = {name:"小红",age:25,sex:"女"}   // 错误
+
+  <script>
+    let p = document.getElementById("di")
+    console.log(p.clientHeight)
+    console.log((p.scrollLeft))
   </script>
 </body>
 </html>

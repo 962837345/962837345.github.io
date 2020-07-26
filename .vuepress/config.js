@@ -88,9 +88,12 @@ module.exports = {
             "js/原型对象",
             "js/JS中的栈和堆",
             "js/数组的方法",
+            "js/JavaScript高阶函数的使用",
             "js/JS中的call()和apply()",
             "js/arguments",
-            "js/JavaScript高阶函数的使用",
+            "js/DOM",
+            "js/拖拽",
+            "js/BOM",
             "js/防抖和节流",
           ]
         },
