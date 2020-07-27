@@ -114,7 +114,8 @@ module.exports = {
         {
           "title": "Components",
           "children": [
-            "components/better-scroll的使用与封装"
+            "components/better-scroll的使用与封装",
+            "components/轮播图的使用与封装"
           ]
         }
       ]
