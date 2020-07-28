@@ -77,7 +77,8 @@ module.exports = {
           "children": [
             "es6/Promise的使用",
             "es6/axios的使用",
-            "es6/let和const"
+            "es6/let和const",
+            "es6/解构"
           ]
         },
         {
@@ -95,6 +96,9 @@ module.exports = {
             "js/拖拽",
             "js/BOM",
             "js/防抖和节流",
+            "js/严格模式",
+            "js/闭包",
+            "js/浅拷贝和深拷贝",
           ]
         },
         {

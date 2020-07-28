@@ -5,15 +5,20 @@
   <title>Test</title>
 </head>
 <body>
-  <div id="di" style="width: 100px;height: 100px; padding: 30px;margin: 10px;background-color: red; overflow: auto">
-    <div style="height: 400px;background-color: blue"></div>
-  </div>
+<script>
+  function Foo() {
+    getName = function() {
+      console.log(1)
+      console.log(this);
+    };
+    return this;
+  }
+  Foo.prototype.getName = function() {
+    console.log(3);
+  };
+  new Foo().getName();  // 3
+  getName();
 
-
-  <script>
-    let p = document.getElementById("di")
-    console.log(p.clientHeight)
-    console.log((p.scrollLeft))
-  </script>
+</script>
 </body>
 </html>

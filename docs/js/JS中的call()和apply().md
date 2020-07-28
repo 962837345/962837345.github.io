@@ -65,3 +65,10 @@ console.log(chinese.sayInfo());    //姓名：成龙, 身高：178cm, 体重：6
 let america = new America("jack", "180cm", "55kg");
 console.log(america.sayInfo());    //姓名：jack, 身高：180cm, 体重：55kg
 ```
+
+## 补充 bind()
+bind()也可以用来改变函数内部this的指向，但是bind()方法不会调用函数
+`fun.bind(thisArg, arg1, arg2, ...)`
+* thisArg：在fun函数运行时指定的this值
+* arg1，arg2：传递的其他参数
+* 返回由指定的this值和初始化参数改造的原函数拷贝
