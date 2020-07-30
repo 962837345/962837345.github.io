@@ -6,19 +6,26 @@
 </head>
 <body>
 <script>
-  function Foo() {
-    getName = function() {
-      console.log(1)
-      console.log(this);
-    };
-    return this;
+  let str = "google";
+  let obj = {};
+  for(let i = 0; i < str.length; i++){
+    if(!obj[str[i]]){
+      obj[str[i]] = 1
+    }else{
+      obj[str[i]] += 1;
+    }
   }
-  Foo.prototype.getName = function() {
-    console.log(3);
-  };
-  new Foo().getName();  // 3
-  getName();
 
+  let index = 0;
+  for(let item in obj){
+    if(obj[item] == 1){
+      console.log(str.indexOf(item));
+    }
+    index++;
+    if(index == obj.length){
+      console.log(-1)
+    }
+  }
 </script>
 </body>
 </html>
