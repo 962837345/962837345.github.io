@@ -38,6 +38,7 @@
         let el = this.el[index];
         let arrow = this.arrow[index];
         if (window.getComputedStyle(el).height === "0px") {
+          el.style.display = 'block';
           // mac Safari下，貌似auto也会触发transition, 故要none下~
           el.style.transition = "none";
           // 设置高度为auto
@@ -94,6 +95,7 @@
   }
 
   .collapse-item .content {
+    display: none;
     height: 0;
     overflow: hidden;
   }

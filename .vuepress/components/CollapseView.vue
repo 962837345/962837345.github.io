@@ -23,5 +23,7 @@
 </script>
 
 <style scoped>
-
+  div{
+    display: block;
+  }
 </style>
