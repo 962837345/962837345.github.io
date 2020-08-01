@@ -73,6 +73,12 @@ module.exports = {
           ]
         },
         {
+          "title": "React",
+          "children": [
+              "react/react基础"
+          ]
+        },
+        {
           "title": "ES6",
           "children": [
             "es6/Promise的使用",
