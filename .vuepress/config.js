@@ -78,7 +78,9 @@ module.exports = {
             "react/react基础",
             "react/组件间的通信",
             "react/react生命周期",
-            "react/react-router的基本使用"
+            "react/react-router的基本使用",
+            "react/使用antd",
+            "react/redux"
           ]
         },
         {
