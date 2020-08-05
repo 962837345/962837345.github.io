@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
-      <change afterPath="$PROJECT_DIR$/docs/react/redux.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/react/使用antd.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blogs/reflections/MongoDB.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/react/redux.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/react/redux.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -23,25 +22,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/docs/react/redux.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="304">
-                <caret line="472" column="3" lean-forward="true" selection-start-line="472" selection-start-column="3" selection-end-line="472" selection-end-column="3" />
-                <folding>
-                  <element signature="e#0#33#1" expanded="true" />
-                  <element signature="e#0#33#0" expanded="true" />
-                  <element signature="e#0#33#1" expanded="true" />
-                  <element signature="e#0#33#0" expanded="true" />
-                  <element signature="e#0#33#0" expanded="true" />
-                  <element signature="e#0#38#0" expanded="true" />
-                  <element signature="e#0#25#0" expanded="true" />
-                  <element signature="e#0#25#0" expanded="true" />
-                  <element signature="e#0#38#0" expanded="true" />
-                  <element signature="e#0#38#0" expanded="true" />
-                  <element signature="e#0#25#0" expanded="true" />
-                </folding>
+              <first_editor relative-caret-position="319">
+                <caret line="528" column="3" selection-start-line="528" selection-start-column="3" selection-end-line="528" selection-end-column="3" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blogs/reflections/MongoDB.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="361">
+                <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -65,7 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.vuepress/styles/palette.styl" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/docs/reflections/git-commit的回滚.md" />
         <option value="$PROJECT_DIR$/docs/reflections/git基础命令.md" />
@@ -116,6 +113,7 @@
         <option value="$PROJECT_DIR$/docs/react/使用antd.md" />
         <option value="$PROJECT_DIR$/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/react/redux.md" />
+        <option value="$PROJECT_DIR$/blogs/reflections/MongoDB.md" />
       </list>
     </option>
   </component>
@@ -138,7 +136,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,19 +151,31 @@
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="project" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="blogs" type="462c0819:PsiDirectoryNode" />
+              <item name="reflections" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
               <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="react" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -278,7 +287,9 @@
       <workItem from="1596289496624" duration="7820000" />
       <workItem from="1596297649004" duration="255000" />
       <workItem from="1596337226741" duration="9285000" />
-      <workItem from="1596422494836" duration="9430000" />
+      <workItem from="1596422494836" duration="11996000" />
+      <workItem from="1596504283241" duration="3542000" />
+      <workItem from="1596592400339" duration="1851000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -354,7 +365,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="196715000" />
+    <option name="totallyTimeSpent" value="204674000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -369,7 +380,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.26541555" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49882904" visible="true" weight="0.27211797" />
       <window_info id="Structure" order="1" sideWeight="0.50117093" side_tool="true" weight="0.29758713" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -457,36 +468,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="change title" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/css/渐变背景动画.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="152">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/flex布局.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="95">
-            <caret line="5" column="11" selection-start-line="5" selection-start-column="11" selection-end-line="5" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/原型对象.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="76">
-            <caret line="4" selection-start-line="4" selection-end-line="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/JS作用域.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -797,13 +778,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -866,24 +840,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docs/react/redux.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="304">
-            <caret line="472" column="3" lean-forward="true" selection-start-line="472" selection-start-column="3" selection-end-line="472" selection-end-column="3" />
-            <folding>
-              <element signature="e#0#33#1" expanded="true" />
-              <element signature="e#0#33#0" expanded="true" />
-              <element signature="e#0#33#1" expanded="true" />
-              <element signature="e#0#33#0" expanded="true" />
-              <element signature="e#0#33#0" expanded="true" />
-              <element signature="e#0#38#0" expanded="true" />
-              <element signature="e#0#25#0" expanded="true" />
-              <element signature="e#0#25#0" expanded="true" />
-              <element signature="e#0#38#0" expanded="true" />
-              <element signature="e#0#38#0" expanded="true" />
-              <element signature="e#0#25#0" expanded="true" />
-            </folding>
+          <first_editor relative-caret-position="319">
+            <caret line="528" column="3" selection-start-line="528" selection-start-column="3" selection-end-line="528" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/reflections/git基础命令.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/project/moguMall.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/reflections/MongoDB.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="361">
+            <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>

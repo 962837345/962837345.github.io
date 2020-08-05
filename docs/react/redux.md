@@ -285,27 +285,19 @@ class App extends Component {
   increment = () => {
     // 1.得到选择增加数量
     const number = this.select.value * 1;
-    // 2.得到原本的count状态，并计算新的count
-    // const num = this.state.num + number;
     this.props.increment(number)
-    // 3.更新状态
-    // this.setState({num: num})
   };
 
   decrement = () => {
     // 1.得到选择增加数量
     const number = this.select.value * 1;
-    // 2.得到原本的count状态，并计算新的count
     this.props.decrement(number)
-    // const num = this.state.num - number;
-    // 3.更新状态
-    // this.setState({num: num})
   };
 
   incrementOdd = () => {
     // 1.得到选择增加数量
     const number = this.select.value * 1;
-    // 2.得到原本的count状态，并计算新的count
+    // 2.得到原本的num状态，并计算新的num
     const num = this.props.num;
     // 3.满足条件才更新状态
     if (num % 2 === 1) {
@@ -397,27 +389,19 @@ export default class Counter extends Component {
   increment = () => {
     // 1.得到选择增加数量
     const number = this.select.value * 1;
-    // 2.得到原本的count状态，并计算新的count
-    // const num = this.state.num + number;
     this.props.increment(number)
-    // 3.更新状态
-    // this.setState({num: num})
   };
 
   decrement = () => {
     // 1.得到选择增加数量
     const number = this.select.value * 1;
-    // 2.得到原本的count状态，并计算新的count
     this.props.decrement(number)
-    // const num = this.state.num - number;
-    // 3.更新状态
-    // this.setState({num: num})
   };
 
   incrementOdd = () => {
     // 1.得到选择增加数量
     const number = this.select.value * 1;
-    // 2.得到原本的count状态，并计算新的count
+    // 2.得到原本的num状态，并计算新的num
     const num = this.props.num;
     // 3.满足条件才更新状态
     if (num % 2 === 1) {
@@ -470,4 +454,97 @@ export default connect(
     state => ({num: state}),
     {increment, decrement}
 )(Counter)
+```
+
+## redux异步编程
+### 安装redux-thunk
+```bash
+npm install --save redux-thunk
+```
+### 应用异步中间件
+在store.js中
+```jsx harmony
+import {createStore, applyMiddleware} from 'redux'
+import {counter} from './reducers'
+import thunk from 'redux-thunk'
+
+//  生成一个store对象
+const store = createStore(
+    counter,
+    applyMiddleware(thunk)  // 应用异步中间件
+);
+
+export default store
+```
+### 在actions.js中创建一个异步action
+```js
+// 同步返回的是对象
+// 异步返回的是函数
+export const incrementAsync = (number) => {
+  return dispatch => {
+    setTimeout(() => {
+      dispatch(increment(number))
+    },1000)
+  }
+};
+```
+
+app.jsx中对应修改
+```jsx harmony
+import {connect} from 'react-redux'
+import {increment, decrement,incrementAsync} from '../redux/actions'
+import Counter from '../components/counter'
+
+export default connect(
+    state => ({num: state}),
+    {increment, decrement,incrementAsync}
+)(Counter)
+```
+
+counter.jsx中直接调用`this.props.异步函数名`即可
+
+## 使用redux调试工具
+### 安装chrome浏览器插件
+redux-devtools  
+### 下载工具依赖包
+```bash
+npm install -D redux-devtools-extension
+```
+### 编码
+修改store.js,引入composeWithDevTools，将applyMiddleware(thunk)包裹起来
+```js
+import {createStore, applyMiddleware} from 'redux'
+import {counter} from './reducers'
+import thunk from 'redux-thunk'
+import {composeWithDevTools} from 'redux-devtools-extension'
+
+
+//  生成一个store对象
+const store = createStore(
+    counter,
+    composeWithDevTools(applyMiddleware(thunk))  // 应用异步中间件
+);
+
+export default store
+```
+
+## reducers.js补充
+当reducers.js中的function有多个时,使用combineReducers统一将导出的模块整合
+```jsx harmony
+import {combineReducers} from 'redux'
+
+function xxx(state=0,action) {
+
+  return state
+}
+
+function yyy(state=0,action) {
+
+  return state
+}
+
+export default combineReducers({
+  xxx,
+  yyy
+})
 ```
