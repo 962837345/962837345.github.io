@@ -10,7 +10,7 @@ categories:
 在调用函数时，浏览器每次都会传递两个隐含的参数：
 * 函数的上下文对象this
 * 封装实参的对象arguments
-  * arguments时一个类数组对象，可以通过索引来获取数据，也可以获取长度
+  * arguments是一个类数组对象，可以通过索引来获取数据，也可以获取长度
   * 在调用函数时，我们所传递的实参都会在arguments中保存
   * arguments.length可以用来获取实参的长度
 * 它里面有一个属性叫callee

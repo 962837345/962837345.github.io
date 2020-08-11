@@ -34,6 +34,10 @@ module.exports = {
           {
             "text": "蘑菇商城",
             "link": "http://120.25.234.110"
+          },
+          {
+            "text":"硅谷直聘",
+            "link":"/blogs/project/硅谷直聘.md"
           }
         ]
       },
