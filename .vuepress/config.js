@@ -36,8 +36,8 @@ module.exports = {
             "link": "http://120.25.234.110"
           },
           {
-            "text":"硅谷直聘",
-            "link":"/blogs/project/硅谷直聘.md"
+            "text": "硅谷直聘",
+            "link": "/blogs/project/硅谷直聘.md"
           }
         ]
       },
@@ -119,6 +119,7 @@ module.exports = {
         {
           "title": "CSS",
           "children": [
+            "css/css基础",
             "css/flex布局",
             "css/css动画",
             "css/渐变背景动画"
