@@ -2,7 +2,7 @@
 title: css基础
 date: 2020-08-14
 tags:
- - css
+ - CSS
 categories:
  - 前端笔记
 ---

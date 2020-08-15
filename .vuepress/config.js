@@ -97,6 +97,12 @@ module.exports = {
           ]
         },
         {
+          "title":"HTML",
+          "children":[
+              "html/SEO优化"
+          ]
+        },
+        {
           "title": "JS",
           "children": [
             "js/JS作用域",
