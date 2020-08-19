@@ -97,9 +97,9 @@ module.exports = {
           ]
         },
         {
-          "title":"HTML",
-          "children":[
-              "html/SEO优化"
+          "title": "HTML",
+          "children": [
+            "html/SEO优化"
           ]
         },
         {
@@ -110,7 +110,6 @@ module.exports = {
             "js/原型对象",
             "js/JS中的栈和堆",
             "js/数组的方法",
-            "js/JavaScript高阶函数的使用",
             "js/JS中的call()和apply()",
             "js/arguments",
             "js/DOM",
@@ -128,7 +127,8 @@ module.exports = {
             "css/css基础",
             "css/flex布局",
             "css/css动画",
-            "css/渐变背景动画"
+            "css/渐变背景动画",
+            "css/BFC"
           ]
         },
         {

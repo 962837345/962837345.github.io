@@ -18,7 +18,7 @@ categories:
 ```js
 function fun() {
   console.log(arguments instanceof Array);
-  console.log(arguments.length)
+  console.log(arguments.length);
   console.log(arguments[0],arguments[1])
 }
 
