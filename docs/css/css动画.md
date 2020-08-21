@@ -47,6 +47,55 @@ rotateX()方法，围绕其在一个给定度数X轴旋转的元素
 #### rotateY()方法
 rotateY()方法，围绕其在一个给定度数Y轴旋转的元素
 
+#### perspective属性
+设置透视效果，一般以px为单位，给父元素设置perspective，作用于子元素
+
+#### transform-style
+呈现3D效果，默认值为flat，表示所有子元素在2D平面呈现，当属性值为preserve-3d时，表示
+所有子元素在3D平面呈现
+
+## 使用css画图形
+### 画等腰直角三角形
+```css
+.box {
+    height: 0;
+    width: 0;
+    margin: 100px auto;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 25px solid red;
+}
+```
+
+### 画三个角分别为30° 60° 90°的直角三角形
+```css
+.box {
+    height: 0;
+    width: 0;
+    margin: 100px auto;
+    border-left: 25px solid transparent;
+    border-top: 50px solid red;
+}
+```
+
+### 画圆角梯形，左上右上为圆角，左下右下不为圆角,content为box的父元素
+```css
+.content{
+    perspective: 250px;
+    height: 150px;
+    width: 250px;
+    margin: 100px auto;
+}
+
+.box {
+    height: 100%;
+    width: 100%;
+    background-color: #FFC800;
+    border-radius: 20px 20px 0 0;
+    transform: rotateX(35deg);
+}
+```
+
 ## 过渡 transition
 CSS3 过渡是元素从一种样式逐渐改变为另一种的效果。
 

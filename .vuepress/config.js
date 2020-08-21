@@ -119,6 +119,7 @@ module.exports = {
             "js/严格模式",
             "js/闭包",
             "js/浅拷贝和深拷贝",
+            "js/手写实现find、filter、reduce等数组方法"
           ]
         },
         {
@@ -128,7 +129,8 @@ module.exports = {
             "css/flex布局",
             "css/css动画",
             "css/渐变背景动画",
-            "css/BFC"
+            "css/BFC",
+            "css/css面试题"
           ]
         },
         {
