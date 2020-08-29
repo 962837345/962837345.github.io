@@ -111,12 +111,12 @@ Array.prototype.MyReduce = function (fn, obj) {
         throw TypeError('error function');
     if (typeof obj !== 'undefined') {
         for (let i = 0; i < this.length; i++) {
-            obj = fn(obj,this[i]);
+            obj = fn(obj,this[i],i,this);
         }
     } else {
         obj = this[0];
         for (let i = 1; i < this.length; i++) {
-            obj = fn(obj,this[i]);
+            obj = fn(obj,this[i],i,this);
         }
     }
     return obj;

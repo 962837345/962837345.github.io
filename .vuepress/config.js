@@ -99,7 +99,9 @@ module.exports = {
         {
           "title": "HTML",
           "children": [
-            "html/SEO优化"
+            "html/html基础",
+            "html/SEO优化",
+            "html/html前端面试题"
           ]
         },
         {

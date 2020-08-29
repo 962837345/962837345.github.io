@@ -11,7 +11,7 @@ categories:
 1. `display: none;`
 2. `visibility: hidden;`
 3. `opacity: 0;`
-4. `position: absolute;top; -9999px;left: -9999px;`
+4. `position: absolute;top： -9999px;left: -9999px;`
 5. `transform: rotateX(90deg);`
 
 * 设置`display: none`
