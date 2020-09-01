@@ -15,7 +15,7 @@ Array.prototype.MyFind = function(fn){      // 使用普通function而不是箭�
         throw TypeError('Error function')
     }
     for(let i = 0; i < this.length;i++){    // 遍历判断条件是否成立，成立返回第一个成立的值
-        if(fn(this[i])){
+        if(fn(this[i],i,this)){
             return this[i];
         }
     }
@@ -30,7 +30,7 @@ Array.prototype.MyFindIndex = function(fn){
     if(typeof fn !== 'function')
         throw TypeError('error function');
     for(let i = 0; i < this.length; i++){
-        if(fn(this[i]))
+        if(fn(this[i],i,this))
             return i;
     }
     return -1;
@@ -44,7 +44,7 @@ Array.prototype.MySome = function(fn) {
     if(typeof fn !== 'function')
         throw TypeError('error function');
     for(let i = 0; i < this.length; i++){
-        if(fn(this[i]))
+        if(fn(this[i],i,this))
             return true;
     }
     return false;
@@ -58,7 +58,7 @@ Array.prototype.MyEvery = function(fn) {
     if(typeof fn !== 'function')
         throw TypeError('error function');
     for(let i = 0; i < this.length; i++){
-        if(!fn(this[i]))
+        if(!fn(this[i],i,this))
             return false;
     }
     return true;
@@ -73,7 +73,7 @@ Array.prototype.MyMap = function(fn) {
         throw TypeError('error function');
     let newArr = [];
     for(let i = 0; i < this.length; i++){
-        newArr.push(fn(this[i]))
+        newArr.push(fn(this[i],i,this))
     }
     return newArr;
 }
@@ -87,7 +87,7 @@ Array.prototype.MyFilter = function (fn) {
         throw TypeError('error function');
     let newArr = [];
     for (let i = 0; i < this.length; i++) {
-        if (fn(this[i])) {
+        if (fn(this[i],i,this)) {
             newArr.push(this[i]);
         }
     }

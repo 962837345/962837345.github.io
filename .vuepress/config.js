@@ -111,6 +111,7 @@ module.exports = {
             "js/JS的关键字",
             "js/原型对象",
             "js/JS中的栈和堆",
+            "js/js类型转换",
             "js/数组的方法",
             "js/JS中的call()和apply()",
             "js/arguments",
