@@ -37,7 +37,7 @@ apple.say.apply(another);   //My color is yellow
 `apply(thisObj, [args]);`
 
 实现继承
-```ecmascript 6
+```js
 //实现js继承
 //父类
 function Person(name, height) {

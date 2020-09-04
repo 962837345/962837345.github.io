@@ -73,7 +73,8 @@ module.exports = {
             "vue/vue-router的使用",
             "vue/vue中的通信",
             "vue/vuex的使用",
-            "vue/vue的响应式原理"
+            "vue/vue的响应式原理",
+            "vue/DOM和虚拟DOM的区别"
           ]
         },
         {
