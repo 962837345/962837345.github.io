@@ -1,5 +1,5 @@
 ---
-title: DOM和虚拟DOM的区别.md
+title: DOM和虚拟DOM的区别
 date: 2020-09-04
 tags:
  - vue

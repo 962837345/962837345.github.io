@@ -102,7 +102,8 @@ module.exports = {
           "children": [
             "html/html基础",
             "html/SEO优化",
-            "html/html前端面试题"
+            "html/html前端面试题",
+            "html/强缓存和协商缓存"
           ]
         },
         {
@@ -112,7 +113,7 @@ module.exports = {
             "js/JS的关键字",
             "js/原型对象",
             "js/JS中的栈和堆",
-            "js/js类型转换",
+            "js/JS类型转换",
             "js/数组的方法",
             "js/JS中的call()和apply()",
             "js/arguments",
