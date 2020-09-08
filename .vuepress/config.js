@@ -103,7 +103,8 @@ module.exports = {
             "html/html基础",
             "html/SEO优化",
             "html/html前端面试题",
-            "html/强缓存和协商缓存"
+            "html/强缓存和协商缓存",
+            "html/多页面应用跨页面通信"
           ]
         },
         {
@@ -124,7 +125,8 @@ module.exports = {
             "js/严格模式",
             "js/闭包",
             "js/浅拷贝和深拷贝",
-            "js/手写实现find、filter、reduce等数组方法"
+            "js/手写实现find、filter、reduce等数组方法",
+            "js/事件委托原理及实现"
           ]
         },
         {
