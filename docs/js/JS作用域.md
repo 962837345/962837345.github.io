@@ -44,7 +44,7 @@ alert(a)            //123
 var a = 123;
 function fun() {
   alert(a);         //123
-  a = 456;          //这里的a被var关键字提前声明
+  a = 456;          
 }
 fun();
 alert(a)            //456
@@ -77,20 +77,20 @@ alert(a)            //123
 
 如果不使用var关键字，则变量不会被声明提前
 ```js
-console.log(a)
+console.log(a);
 var a = 123;
 ```
 等于
 ```js
 var a;
-console.log(a)
+console.log(a);
 a = 123;
 ```
 此时a为undefined
 
 如果去掉var
 ```js
-console.log(a)
+console.log(a);
 a = 123;
 ```
 此时报错  a is not defined

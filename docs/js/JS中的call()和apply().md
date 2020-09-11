@@ -72,3 +72,46 @@ bind()也可以用来改变函数内部this的指向，但是bind()方法不会�
 * thisArg：在fun函数运行时指定的this值
 * arg1，arg2：传递的其他参数
 * 返回由指定的this值和初始化参数改造的原函数拷贝
+## 手写实现call
+```js
+Function.prototype.myCall = function(context,...args){
+    if(typeof this !== 'function'){
+        throw TypeError(this+'is not a function')
+    }
+    context = context || window;    // 没有传入对象，默认为window
+    context.fn = this;
+    const result = context.fn(...args);
+    delete context.fn;
+    return result;
+}
+```
+## 手写实现apply
+```js
+Function.prototype.myApply = function(context,args){
+    if(typeof this !== 'function'){
+        throw TypeError(this+'is not a function')
+    }
+    context = context || window;    // 没有传入对象，默认为window
+    context.fn = this;
+    const result = context.fn(...args);
+    delete context.fn;
+    return result;
+}
+```
+## 手写实现bind
+```js
+Function.prototype.myBind = function(obj){
+    if(typeof this !== 'function'){
+        throw TypeError(this+'is not a function')
+    }
+    let that = this;
+    let args = [].slice.call(arguments,1);
+    let func = function () {
+        that.apply(this instanceof func ? this : obj, args.concat([].slice.call(arguments,0)))
+    };
+    let FUN = function () {};
+    FUN.prototype = this.prototype;
+    func.prototype = new FUN();
+    return func;
+}
+```
