@@ -107,7 +107,7 @@ Function.prototype.myBind = function(obj){
     let that = this;
     let args = [].slice.call(arguments,1);
     let func = function () {
-        that.apply(this instanceof func ? this : obj, args.concat([].slice.call(arguments,0)))
+        return that.apply(this instanceof func ? this : obj, args.concat([].slice.call(arguments,0)))
     };
     let FUN = function () {};
     FUN.prototype = this.prototype;
