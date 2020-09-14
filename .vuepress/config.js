@@ -127,7 +127,8 @@ module.exports = {
             "js/闭包",
             "js/浅拷贝和深拷贝",
             "js/手写实现find、filter、reduce等数组方法",
-            "js/事件委托原理及实现"
+            "js/事件委托原理及实现",
+            "js/排序算法"
           ]
         },
         {
