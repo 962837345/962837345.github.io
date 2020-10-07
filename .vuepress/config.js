@@ -38,6 +38,10 @@ module.exports = {
           {
             "text": "硅谷直聘",
             "link": "/blogs/project/硅谷直聘.md"
+          },
+          {
+            "text": "keep记账本",
+            "link": "/blogs/project/keep记账本.md"
           }
         ]
       },
