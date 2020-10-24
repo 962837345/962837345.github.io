@@ -93,6 +93,12 @@ module.exports = {
           ]
         },
         {
+          "title": "Applet",
+          "children": [
+            "applet/微信小程序this.setData注意事项"
+          ]
+        },
+        {
           "title": "ES6",
           "children": [
             "es6/Promise的使用",
