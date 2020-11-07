@@ -115,7 +115,8 @@ module.exports = {
             "html/html前端面试题",
             "html/强缓存和协商缓存",
             "html/多页面应用跨页面通信",
-            "html/http和https"
+            "html/http和https",
+            "html/跨域"
           ]
         },
         {
