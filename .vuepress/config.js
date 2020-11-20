@@ -139,7 +139,8 @@ module.exports = {
             "js/浅拷贝和深拷贝",
             "js/手写实现find、filter、reduce等数组方法",
             "js/事件委托原理及实现",
-            "js/排序算法"
+            "js/排序算法",
+            "js/判断是否通过new调用构造函数"
           ]
         },
         {

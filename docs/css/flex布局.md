@@ -93,7 +93,7 @@ order决定了flex items的排布顺序
 ### align-self
 flex items可以通过align-self覆盖flex container设置的align-items
 * auto（默认值）：遵从flex container的align-items设置
-* stretch、flex-start、flexx-end、center、baseline，效果跟align-items一致
+* stretch、flex-start、flex-end、center、baseline，效果跟align-items一致
 
 ### flex-grow
 * flew-grow决定了flex items如何扩展
@@ -138,5 +138,16 @@ flex items可以通过align-self覆盖flex container设置的align-items
         * 一个有效的宽度值：它会被当作flex-basis的值
 * 三值语法：
     * 第一个值必须为一个无单位数，并且它会被当作flex-grow的值
+    
     * 第二个值必须为一个无单位数，并且它会被当作flex-shrink的值
+    
     * 第三个值必须为一个有效的宽度值，并且它会被当作flex-basis的值
+    
+
+::: tip
+flex实现父窗口中的三个子项中两个居左，一个居右效果
+:::
+
+在flex布局中如果某个元素的`margin`为`auto`，那么它的margin将会自动填充为剩下的空间
+
+因此只需要在第三个子项中设置margin-left:auto就可以实现该效果
