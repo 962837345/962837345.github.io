@@ -30,10 +30,10 @@
   background: skyblue;
 }
 .item1{
-  border-radius: 0 10% 0 0;
+  border-radius: 0 30% 0 0;
 }
 .item3{
-  border-radius: 10% 0 0 0;
+  border-radius: 30% 0 0 0;
 }
 .item2{
   position: relative;
@@ -46,7 +46,7 @@
   content: '';
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -52%);
+  transform: translate(-49%, -50%);
   width: 55px;
   height: 55px;
   border-radius: 50%;
