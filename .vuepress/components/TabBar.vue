@@ -39,16 +39,16 @@
   position: relative;
   width: 20%;
   height: 100%;
-  background: radial-gradient(circle at 50% top, transparent 50%, skyblue 50%);
+  background: radial-gradient(circle at 50% top, transparent 43%, skyblue 50%);
 }
 
 .item2:after{
   content: '';
   position: absolute;
   left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60px;
-  height: 60px;
+  transform: translate(-50%, -52%);
+  width: 55px;
+  height: 55px;
   border-radius: 50%;
   background: skyblue;
 }
