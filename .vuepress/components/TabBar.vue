@@ -39,7 +39,7 @@
   position: relative;
   width: 20%;
   height: 100%;
-  background: radial-gradient(circle at 50% top, transparent 43%, skyblue 50%);
+  background: radial-gradient(circle at 50% top, transparent 48%, skyblue 50%);
 }
 
 .item2:after{
