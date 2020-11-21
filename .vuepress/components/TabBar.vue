@@ -30,17 +30,16 @@
   background: skyblue;
 }
 .item1{
-  border-radius: 0 10px 0 0;
+  border-radius: 0 10% 0 0;
 }
 .item3{
-  border-radius: 10px 0 0 0;
+  border-radius: 10% 0 0 0;
 }
 .item2{
   position: relative;
   width: 20%;
   height: 100%;
-  background: radial-gradient(circle at top, transparent 50%, skyblue 50%);
-  margin-left: -1px;
+  background: radial-gradient(circle at 50% top, transparent 50%, skyblue 50%);
 }
 
 .item2:after{
