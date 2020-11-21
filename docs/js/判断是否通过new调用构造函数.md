@@ -32,3 +32,13 @@ Person() // false
 new Person() //true
 ```
 如果不是使用new调用，new.target为undefined
+
+4. 使用arguments.callee判断
+
+ ```js
+ function Person(){
+     console.log(this instanceof arguments.callee)
+ }
+ Person() // false
+ new Person() // true
+ ```

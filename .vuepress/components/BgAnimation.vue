@@ -1,6 +1,5 @@
 <template>
-  <div class="sm">
-  </div>
+  <div class="sm"/>
 </template>
 
 <script>

@@ -104,7 +104,8 @@ module.exports = {
             "es6/Promise的使用",
             "es6/axios的使用",
             "es6/let和const",
-            "es6/解构"
+            "es6/解构",
+            "es6/Object.assign的使用"
           ]
         },
         {
@@ -149,7 +150,7 @@ module.exports = {
             "css/css基础",
             "css/flex布局",
             "css/css动画",
-            "css/渐变背景动画",
+            "css/CSS3渐变",
             "css/BFC",
             "css/css面试题"
           ]
