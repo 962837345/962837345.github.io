@@ -5,8 +5,43 @@
   <title>Test</title>
 </head>
 <body>
-<script>
+  <div id="app"></div>
+  <script>
+    let state = {count: 0}
+    app.innerHTML = state.count
+    let active;
+    function defineReactive(obj) { // 变成响应
+      for(let key in obj){
+        let value = obj[key] // 对象的值
+        let dep = [] // 收集依赖
+        Object.defineProperty(obj, key, {
+          get(){
+            if(active){
+              dep.push(active)
+            }
+            return value
+          },
+          set(newValue){
+            value = newValue
+            dep.forEach(watcher => watcher()) // 通知watcher更新
+          }
+        })
+      }
+    }
 
-</script>
+    defineReactive(state)
+
+    const watcher = (fn) => {
+      active = fn
+      fn()
+      active = null
+    }
+    watcher(() => {
+      app.innerHTML = state.count
+    })
+    watcher(() => {
+      console.log(state.count)
+    })
+  </script>
 </body>
 </html>

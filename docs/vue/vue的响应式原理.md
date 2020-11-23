@@ -20,6 +20,8 @@ Vue 无法检测 property 的添加或移除。由于 Vue 会在初始化实例�
 对于已经创建的实例，Vue 不允许动态添加根级别的响应式 property。但是，
 可以使用` Vue.set(object, propertyName, value)` 方法向嵌套对象添加响应式 property
 
+对于数组的响应式是通过重写数组的方法（'pop', 'shift', 'unshift', 'sort', 'reverse', 'splice', 'push'）实现的
+
 ## Vue 不能检测以下数组的变动
 
 1.当你利用索引直接设置一个数组项时，例如：`vm.items[indexOfItem]` = newValue
@@ -45,3 +47,54 @@ Vue 在更新 DOM 时是异步执行的。只要侦听到数据变化，Vue 将�
 外界通过watcher读取数据时，会触发getter从而将watcher添加到依赖中
 
 在修改对象的值的时候，会触发对应的setter，setter通知之前依赖收集得到每一个watcher，通知它们进行update操作
+
+## vue响应式原理简单实现
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script>
+    let state = {count: 0}
+    app.innerHTML = state.count
+    let active;
+    function defineReactive(obj) { // 变成响应
+      for(let key in obj){
+        let value = obj[key] // 对象的值
+        let dep = [] // 收集依赖
+        Object.defineProperty(obj, key, {
+          get(){
+            if(active){
+              dep.push(active)
+            }
+            return value
+          },
+          set(newValue){
+            value = newValue
+            dep.forEach(watcher => watcher()) // 通知watcher更新
+          }
+        })
+      }
+    }
+
+    defineReactive(state)
+
+    const watcher = (fn) => {
+      active = fn
+      fn()
+      active = null
+    }
+    watcher(() => {
+      app.innerHTML = state.count
+    })
+    watcher(() => {
+      console.log(state.count)
+    })
+  </script>
+</body>
+</html>
+```
