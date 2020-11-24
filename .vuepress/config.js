@@ -141,7 +141,10 @@ module.exports = {
             "js/手写实现find、filter、reduce等数组方法",
             "js/事件委托原理及实现",
             "js/排序算法",
-            "js/判断是否通过new调用构造函数"
+            "js/判断是否通过new调用构造函数",
+            "js/new操作符做了什么",
+            "js/数组扁平化",
+            "js/继承"
           ]
         },
         {
@@ -153,6 +156,13 @@ module.exports = {
             "css/CSS3渐变",
             "css/BFC",
             "css/css面试题"
+          ]
+        },
+        {
+          "title" : "网络",
+          "children": [
+              "network/三次握手四次挥手",
+              "network/TCP与UDP"
           ]
         },
         {

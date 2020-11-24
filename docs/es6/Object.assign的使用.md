@@ -1,6 +1,6 @@
 ---
 title: Object.assign的使用
-date: 2020-0-11-21
+date: 2020-11-21
 tags:
  - ES6
  - JS
