@@ -7,13 +7,14 @@
 <body>
   <div id="app"></div>
   <script>
-    let state = {count: 0}
+    const state = {count: 0}
+    const app = document.getElementById("app")
     app.innerHTML = state.count
-    let active;
-    function defineReactive(obj) { // 变成响应
-      for(let key in obj){
-        let value = obj[key] // 对象的值
-        let dep = [] // 收集依赖
+    let active
+    function defineReactive(obj) {
+      for(const key in obj){
+        let value = obj[key]
+        const dep = []
         Object.defineProperty(obj, key, {
           get(){
             if(active){
@@ -21,16 +22,14 @@
             }
             return value
           },
-          set(newValue){
-            value = newValue
-            dep.forEach(watcher => watcher()) // 通知watcher更新
+          set(newVal) {
+            value = newVal
+            dep.forEach(watcher => watcher())
           }
         })
       }
     }
-
     defineReactive(state)
-
     const watcher = (fn) => {
       active = fn
       fn()
@@ -39,9 +38,7 @@
     watcher(() => {
       app.innerHTML = state.count
     })
-    watcher(() => {
-      console.log(state.count)
-    })
+
   </script>
 </body>
 </html>

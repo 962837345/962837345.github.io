@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
-      <change afterPath="$PROJECT_DIR$/.vuepress/public/fourHand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vuepress/public/threeHand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/network/TCP与UDP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docs/network/三次握手四次挥手.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/es6/Object.assign的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/Object.assign的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/js/JS的关键字.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/JS的关键字.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/components/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/components/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/network/TCP与UDP.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/TCP与UDP.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -44,8 +39,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="424">
+              <caret line="164" column="30" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="343">
-              <caret line="164" column="30" lean-forward="true" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="30" />
+              <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -54,80 +58,8 @@
         <entry file="file://$PROJECT_DIR$/docs/network/TCP与UDP.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="7" selection-end-column="3" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/docs/network/三次握手四次挥手.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="385">
-                <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blogs/project/moguMall.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="247">
-                <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="83" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/数组扁平化.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="152">
-                <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/继承.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/new操作符做了什么.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="19">
-                <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/js/JS类型转换.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret selection-end-line="7" selection-end-column="3" />
+              <first_editor relative-caret-position="38">
+                <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
               </first_editor>
               <second_editor />
             </state>
@@ -202,14 +134,14 @@
         <option value="$PROJECT_DIR$/.vuepress/components/BgAnimation.vue" />
         <option value="$PROJECT_DIR$/.vuepress/components/TabBar.vue" />
         <option value="$PROJECT_DIR$/docs/css/CSS3渐变.md" />
-        <option value="$PROJECT_DIR$/.vuepress/components/text.html" />
         <option value="$PROJECT_DIR$/docs/vue/vue的响应式原理.md" />
         <option value="$PROJECT_DIR$/docs/js/new操作符做了什么.md" />
         <option value="$PROJECT_DIR$/docs/js/继承.md" />
         <option value="$PROJECT_DIR$/docs/js/数组扁平化.md" />
         <option value="$PROJECT_DIR$/.vuepress/config.js" />
-        <option value="$PROJECT_DIR$/docs/network/TCP与UDP.md" />
         <option value="$PROJECT_DIR$/docs/network/三次握手四次挥手.md" />
+        <option value="$PROJECT_DIR$/docs/network/TCP与UDP.md" />
+        <option value="$PROJECT_DIR$/.vuepress/components/text.html" />
       </list>
     </option>
   </component>
@@ -248,7 +180,7 @@
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
               <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
@@ -429,7 +361,8 @@
       <workItem from="1605798564316" duration="1919000" />
       <workItem from="1605876088149" duration="11428000" />
       <workItem from="1606140296967" duration="3160000" />
-      <workItem from="1606229504079" duration="2165000" />
+      <workItem from="1606229504079" duration="2889000" />
+      <workItem from="1606318831091" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -505,7 +438,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="366893000" />
+    <option name="totallyTimeSpent" value="369386000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -520,7 +453,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.22386059" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.22654155" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2077748" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -958,13 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="32" selection-end-line="46" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/es6/Object.assign的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -975,38 +901,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/JS类型转换.md">
+    <entry file="file://$PROJECT_DIR$/blogs/project/moguMall.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/new操作符做了什么.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="17" lean-forward="true" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="164" column="30" lean-forward="true" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/network/TCP与UDP.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
+          <first_editor relative-caret-position="361">
+            <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="83" />
           </first_editor>
           <second_editor />
         </state>
@@ -1016,7 +915,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="152">
-            <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <caret line="8" selection-start-line="8" selection-end-line="8" />
           </first_editor>
           <second_editor />
         </state>
@@ -1032,11 +931,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/project/moguMall.md">
+    <entry file="file://$PROJECT_DIR$/docs/js/new操作符做了什么.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="247">
-            <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="83" />
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/JS类型转换.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="7" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
@@ -1049,6 +958,30 @@
             <caret line="48" column="49" selection-start-line="48" selection-start-column="49" selection-end-line="48" selection-end-column="49" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/network/TCP与UDP.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="38">
+            <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="164" column="30" selection-start-line="164" selection-start-column="23" selection-end-line="164" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="38" column="33" selection-start-line="38" selection-start-column="33" selection-end-line="38" selection-end-column="33" />
         </state>
       </provider>
     </entry>
