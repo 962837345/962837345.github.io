@@ -124,7 +124,7 @@ module.exports = {
         {
           "title": "JS",
           "children": [
-            "js/JS作用域",
+            "js/JS执行上下文和作用域",
             "js/JS的关键字",
             "js/原型对象",
             "js/JS中的栈和堆",

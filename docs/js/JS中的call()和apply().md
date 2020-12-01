@@ -79,21 +79,25 @@ Function.prototype.myCall = function(context,...args){
         throw TypeError(this+'is not a function')
     }
     context = context || window;    // 没有传入对象，默认为window
-    context.fn = this;
-    const result = context.fn(...args);
+    args = args || [] // 没有传参时默认为[]
+    const fn = Symbol('fn') // 利用Symbol防止传入的context中有同名函数
+    context[fn] = this;
+    const result = context[fn](...args);
     delete context.fn;
     return result;
 }
 ```
 ## 手写实现apply
 ```js
-Function.prototype.myApply = function(context,args){
+Function.prototype.myApply = function(context, args){
     if(typeof this !== 'function'){
         throw TypeError(this+'is not a function')
     }
     context = context || window;    // 没有传入对象，默认为window
-    context.fn = this;
-    const result = context.fn(...args);
+	args = args || [] // 没有传参时默认为[]
+    const fn = Symbol('fn') // 利用Symbol防止传入的context中有同名函数
+    context[fn] = this;
+    const result = context[fn](...args);
     delete context.fn;
     return result;
 }

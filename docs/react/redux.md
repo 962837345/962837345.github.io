@@ -262,7 +262,7 @@ store.subscribe(render);
 ```
 使用Provider标签将App包裹起来，将store的值传给Provider
 
-###　app.jsx的修改
+### app.jsx的修改
 ```jsx harmony
 import React, {Component} from 'react'
 import './app.css'
@@ -289,7 +289,7 @@ class App extends Component {
   };
 
   decrement = () => {
-    // 1.得到选择增加数量
+    // 1.得到选择减少数量
     const number = this.select.value * 1;
     this.props.decrement(number)
   };

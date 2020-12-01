@@ -36,7 +36,7 @@ import About from '../../views/about/about'
 import Home from '../../views/home/home'
 ```
 使用NavLink标签作为跳转选项
-```
+```html
 <NavLink to='/about'>About</NavLink>
 <NavLink to='/home'>Home</NavLink>
 ```
@@ -46,7 +46,7 @@ import Home from '../../views/home/home'
 
 `<Redirect>`为初始重定向到某个页面,与`<Route>`中的`path`对应
 
-```
+```html
 <Switch>
   <Route path='/about' component={About}/>
   <Route path='/home' component={Home}/>
@@ -58,7 +58,7 @@ import Home from '../../views/home/home'
 嵌套路由的步骤基本跟使用路由的步骤差不多，关键在于`<Route>`中的`path`需要加上父组件的路径
 
 示例：这里的home为父组件Home，嵌套一个子组件News
-```
+```html
 <Route path='/home/news' component={News}/>
 ```
 
@@ -66,7 +66,7 @@ import Home from '../../views/home/home'
 示例：
 
 在父组件中传入id
-```
+```html
 <a href={`/home/message/messagedetail/${m.id}`}>{m.title}</a>
 
 <Route path='/home/message/messagedetail/:id' component={MessageDetail}/>

@@ -7,38 +7,28 @@
 <body>
   <div id="app"></div>
   <script>
-    const state = {count: 0}
-    const app = document.getElementById("app")
-    app.innerHTML = state.count
-    let active
-    function defineReactive(obj) {
-      for(const key in obj){
-        let value = obj[key]
-        const dep = []
-        Object.defineProperty(obj, key, {
-          get(){
-            if(active){
-              dep.push(active)
-            }
-            return value
-          },
-          set(newVal) {
-            value = newVal
-            dep.forEach(watcher => watcher())
-          }
-        })
+    Function.prototype.myCall = function (context, ...args) {
+      if(typeof this !== 'function'){
+        throw TypeError(this+ 'is not a function')
+      }
+      context = context || window
+      const func = Symbol()
+      context[func] = this
+      console.log(args)
+      const result = context[func](...args)
+      delete context[func]
+      return result
+    }
+    const obj = {
+      name: '123',
+      func: function () {
+        console.log('222')
       }
     }
-    defineReactive(state)
-    const watcher = (fn) => {
-      active = fn
-      fn()
-      active = null
+    function test() {
+      console.log(this.name)
     }
-    watcher(() => {
-      app.innerHTML = state.count
-    })
-
+    test.myCall(obj, 1, 2, 3)
   </script>
 </body>
 </html>
