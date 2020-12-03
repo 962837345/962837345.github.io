@@ -9,6 +9,7 @@ categories:
 ---
 
 ## let命令
+
 * let在代码块中有效，var是在全局范围内有效
 * let只能声明一次，var可以多次声明
 
@@ -60,3 +61,20 @@ person.age = 20;
 console.log(person); //{name:"小明",age:20,sex:"男"}
 person = {name:"小红",age:25,sex:"女"}   // 错误
 ```
+
+###　暂时性死区
+
+只要块级作用域内存在`let`命令,它所声明的变量就"绑定"这个区域,不再受外部的影响
+
+```js
+var temp = 123
+
+if(true){
+    temp = '321' // ReferenceError
+    let temp
+}
+```
+
+上面的代码中,存在全局变量`temp`,但是块级作用域内`let`又声明了一个局部变量`temp`,导致后者绑定这个块级作用域,所以在`let`声明变量之前,对`temp`赋值会报错
+
+在代码块内,使用`let`命令声明变量之前,该变量都是不可用的,这在语法上,称为"暂时性死区"

@@ -7,28 +7,24 @@
 <body>
   <div id="app"></div>
   <script>
-    Function.prototype.myCall = function (context, ...args) {
-      if(typeof this !== 'function'){
-        throw TypeError(this+ 'is not a function')
+    const target = {
+      m: function () {
+        console.log(this === target);
       }
-      context = context || window
-      const func = Symbol()
-      context[func] = this
-      console.log(args)
-      const result = context[func](...args)
-      delete context[func]
-      return result
-    }
-    const obj = {
-      name: '123',
-      func: function () {
-        console.log('222')
+    };
+    const handler = {
+      get: function (target, prop) {
+        if(prop === 'm'){
+          return target.m.bind(target)
+        }
+        return Reflect.get(target, prop)
       }
-    }
-    function test() {
-      console.log(this.name)
-    }
-    test.myCall(obj, 1, 2, 3)
+    };
+
+    const proxy = new Proxy(target, handler);
+
+    target.m() // false
+    proxy.m()  // true
   </script>
 </body>
 </html>

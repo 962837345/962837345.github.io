@@ -77,6 +77,7 @@ module.exports = {
             "vue/vue-router的使用",
             "vue/vue中的通信",
             "vue/vuex的使用",
+            "vue/axios的使用",
             "vue/vue的响应式原理",
             "vue/DOM和虚拟DOM的区别"
           ]
@@ -102,10 +103,10 @@ module.exports = {
           "title": "ES6",
           "children": [
             "es6/Promise的使用",
-            "es6/axios的使用",
             "es6/let和const",
             "es6/解构",
-            "es6/Object.assign的使用"
+            "es6/Object.assign的使用",
+            "es6/Proxy"
           ]
         },
         {
