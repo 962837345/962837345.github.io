@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
-      <change afterPath="$PROJECT_DIR$/docs/es6/Proxy.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/es6/Reflect.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/components/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/components/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/css/css优化.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/css/css优化.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/es6/axios的使用.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/vue/axios的使用.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/es6/let和const.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/let和const.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/es6/Proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/Proxy.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -43,8 +41,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+            <state relative-caret-position="362">
+              <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -52,8 +50,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="323">
+              <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -74,8 +72,20 @@
         <entry file="file://$PROJECT_DIR$/docs/es6/Proxy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+              <first_editor relative-caret-position="304">
+                <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/docs/es6/Reflect.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="19">
+                <caret line="1" column="14" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/js/arguments.md" />
         <option value="$PROJECT_DIR$/docs/js/原型对象.md" />
         <option value="$PROJECT_DIR$/docs/js/浅拷贝和深拷贝.md" />
         <option value="$PROJECT_DIR$/docs/css/css动画.md" />
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/docs/js/JS作用域.md" />
         <option value="$PROJECT_DIR$/docs/es6/Proxy.md" />
         <option value="$PROJECT_DIR$/docs/vue/axios的使用.md" />
+        <option value="$PROJECT_DIR$/docs/es6/Reflect.md" />
         <option value="$PROJECT_DIR$/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/.vuepress/components/text.html" />
       </list>
@@ -181,6 +191,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -225,7 +236,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -243,19 +253,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public\react-demo" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\components" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public\components\swiper" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public\felx" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\ideaProject\my-blog\docs\es6" />
       <recent name="G:\ideaProject\my-blog\docs\vue" />
       <recent name="G:\ideaProject\my-blog\.vuepress\components\swiper" />
       <recent name="G:\ideaProject\my-blog\docs" />
       <recent name="G:\ideaProject\my-blog\blogs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public\react-demo" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\components" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public\components\swiper" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public\felx" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -385,7 +395,8 @@
       <workItem from="1606745886161" duration="3944000" />
       <workItem from="1606832115284" duration="1214000" />
       <workItem from="1606917388683" duration="1798000" />
-      <workItem from="1606997522952" duration="2653000" />
+      <workItem from="1606997522952" duration="4396000" />
+      <workItem from="1607092552164" duration="24193000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -461,7 +472,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="386486000" />
+    <option name="totallyTimeSpent" value="412422000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -474,9 +485,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.2419571" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.24530831" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2077748" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -493,7 +503,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30878186" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.30878186" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -568,16 +578,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/js/JS中的栈和堆.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="399">
-            <caret line="21" column="4" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/手写实现find、filter、reduce等数组方法.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -974,16 +974,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/es6/let和const.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="8" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/vue/axios的使用.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -994,11 +984,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/es6/Proxy.md">
+    <entry file="file://$PROJECT_DIR$/docs/es6/let和const.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret line="5" column="5" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
+            <caret selection-end-line="8" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/es6/Proxy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="304">
+            <caret line="16" column="38" lean-forward="true" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/es6/Reflect.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="19">
+            <caret line="1" column="14" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -1006,15 +1016,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="107" column="35" lean-forward="true" selection-start-line="107" selection-start-column="35" selection-end-line="107" selection-end-column="35" />
+        <state relative-caret-position="362">
+          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        <state relative-caret-position="323">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
         </state>
       </provider>
     </entry>
