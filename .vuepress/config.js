@@ -107,7 +107,8 @@ module.exports = {
             "es6/解构",
             "es6/Object.assign的使用",
             "es6/Proxy",
-            "es6/Reflect"
+            "es6/Reflect",
+            "es6/Symbol的使用"
           ]
         },
         {

@@ -7,7 +7,7 @@ tags:
 categories:
  - 前端笔记 
 ---
-### 概述
+## 概述
 
 `Reflect`对象与`Proxy`对象一样，也是ES6为了操作对象而提供的新的API。`Reflect`对象的设计目的有这样几个
 
@@ -73,7 +73,7 @@ Function.prototype.apply.call(Match.floor, undefined, [1.75]) // 1
 Reflect.apply(Math.floor, undefined, [1.75]) // 1
 ```
 
-### 静态方法
+## 静态方法
 
 `Reflect`对象一共有13个静态方法
 
@@ -93,7 +93,7 @@ Reflect.apply(Math.floor, undefined, [1.75]) // 1
 
 上面这些方法的作用，大部分与`Object`对象的同名方法的作用都是相同的，而且它与`Proxy`对象的方法是一一对应的。
 
-#### Reflect.get(target, name, receiver)
+### Reflect.get(target, name, receiver)
 
 `Reflect.get`方法查找并返回`target`对象的`name`属性，如果没有该属性，则返回`undefined`
 
@@ -136,7 +136,7 @@ Reflect.get(1, "a"); // 报错
 Reflect.get(true, "a"); // 报错
 ```
 
-#### Reflect.set(target, name, value, receiver)
+### Reflect.set(target, name, value, receiver)
 
 `Reflect.set`方法设置`target`对象的`name`属性等于`value`
 
@@ -236,7 +236,7 @@ Reflect.set(1, 'foo', {}) // 报错
 Reflect.set(false, 'foo', {}) // 报错
 ```
 
-#### Reflect.has(obj, name)
+### Reflect.has(obj, name)
 
 `Reflect.has`方法对应`name in obj`里面的`in`运算符
 
@@ -250,7 +250,7 @@ console.log(Reflect.has(obj, "a")); // 新写法
 
 如果`Reflect.has()`方法的第一个参数不是对象，会报错
 
-#### Reflect.deleteProperty(obj, name)
+### Reflect.deleteProperty(obj, name)
 
 `Reflect.deleteProperty`方法等同于`delete obj[name]`，用于删除对象的属性
 
@@ -266,7 +266,7 @@ Reflect.deleteProperty(obj, 'a') // 新写法
 
 如果`Reflect.deleteProperty()`方法的第一个参数不是对象，会报错。
 
-#### Reflect.construct(target, args)
+### Reflect.construct(target, args)
 
 `Reflect.construct`方法等同于`new target(...args)`,这提供了一种不使用`new`，来调用构造函数的方法
 
@@ -282,7 +282,7 @@ const person1 = Reflect.construct(Person, ["xiaoming"]);
 
 如果`Reflect.construct()`方法的第一个参数不是函数，会报错
 
-#### Reflect.getPrototypeOf(obj)
+### Reflect.getPrototypeOf(obj)
 
 `Reflect.getPrototypeOf`方法用于读取对象的`__proto__`属性，对应`Object.getPrototypeOf(obj)`
 
@@ -304,7 +304,7 @@ Object.getPrototypeOf(1); // Number {0, constructor: ƒ, …}
 Reflect.getPrototypeOf(1); // 报错
 ```
 
-#### Reflect.setPrototypeOf(obj, newProto)
+### Reflect.setPrototypeOf(obj, newProto)
 
 `Reflect.setPrototypeOf`方法用于设置目标对象的原型(prototype),对应`Object.setPrototypeOf(obj, newProto)`方法。它返回一个布尔值，表示是否设置成功
 
@@ -343,7 +343,7 @@ Object.setPrototypeOf(null, {}) // TypeError
 Reflect.setPrototypeOf(null, {}) // TypeError
 ```
 
-#### Reflect.apply(func, thisArg, args)
+### Reflect.apply(func, thisArg, args)
 
 `Reflect.apply`方法等同于`Function.prototype.apply.call(func, thisArg, args)`用于绑定`this`对象后执行给定函数
 
@@ -363,7 +363,7 @@ const oldest = Reflect.apply(Match.max, Math, ages)
 const type = Reflect.apply(Object.prototype.toString, youngest, [])
 ```
 
-#### Reflect.defineProperty(target, propertyKey, attributes)
+### Reflect.defineProperty(target, propertyKey, attributes)
 
 `Reflect.defineProperty`方法基本等同于`Object.defineProperty`,用来为对象定义属性
 
@@ -400,7 +400,7 @@ console.log(p.foo) // 'bar'
 
 上面代码中，`Proxy.defineProperty`对属性赋值设置了拦截，然后使用`Reflect.defineProperty`完成了赋值
 
-#### Reflect.getOwnPropertyDescriptor(target, propertyKey)
+### Reflect.getOwnPropertyDescriptor(target, propertyKey)
 
 `Reflect.getOwnPropertyDescriptor`基本等同于`Object.getOwnPropertyDescriptor`，用于得到指定属性的表述对象
 
@@ -424,7 +424,7 @@ console.log(newDescriptor)
 
 `Reflect.getOwnPropertyDescriptor`和`Object.getOwnPropertyDescriptor`的一个区别是，如果第一个参数不是对象，`Object.getOwnPropertyDescriptor(1, 'foo')`不报错，返回`undefined`,而`Reflect.getOwnPropertyDescriptor(1, 'foo')`会抛出错误，表示参数非法
 
-#### Reflect.isExtensible(target)
+### Reflect.isExtensible(target)
 
 `Reflect.isExtensible`方法对应`Object.isExtensible`，返回一个布尔值，表示当前对象是否可扩展
 
@@ -445,7 +445,7 @@ Object.isExtensible(1) // false
 Reflect.isExtensible(1) // 报错
 ```
 
-#### Reflect.preventExtensions(target)
+### Reflect.preventExtensions(target)
 
 `Reflect.preventExtensions`对应`Object.preventExtensions`方法，用于让一个对象变为不可扩展。它返回一个布尔值，表示是否操作成功
 
@@ -472,7 +472,7 @@ Object.preventExtensions(1) // 1
 Reflect.preventExtensions(1) // 报错
 ```
 
-#### Reflect.ownKeys(target)
+### Reflect.ownKeys(target)
 
 `Reflect.ownKeys`方法用于返回对象的所有属性，基本等同于`Object,getOwnPropertyNames`与`Object.getOwnPropertySymbols`之和
 
@@ -494,7 +494,7 @@ Reflect.ownKeys(obj) // ["foo", "bar", Symbol(baz), Symbol(bing)]
 
 如果`Reflect.ownKeys()`方法的第一个参数不是对象，会报错
 
-### 实例：使用Proxy实现观察者模式
+## 实例：使用Proxy实现观察者模式
 
 ```js
 let active = null
