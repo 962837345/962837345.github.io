@@ -108,7 +108,8 @@ module.exports = {
             "es6/Object.assign的使用",
             "es6/Proxy",
             "es6/Reflect",
-            "es6/Symbol的使用"
+            "es6/Symbol的使用",
+            "es6/ES6扩展"
           ]
         },
         {
@@ -117,6 +118,7 @@ module.exports = {
             "html/html基础",
             "html/SEO优化",
             "html/html前端面试题",
+            "html/浏览器渲染过程",
             "html/强缓存和协商缓存",
             "html/多页面应用跨页面通信",
             "html/http和https",

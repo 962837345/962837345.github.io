@@ -26,7 +26,7 @@ function fun() {
 fun(2,6)
 ```
 输出
-```js
+```
 false
 2
 2 6

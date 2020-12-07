@@ -32,7 +32,7 @@ if(typeof result === 'object'){ // 判断构造函数返回值类型
 }
 ```
 
-没有显式定义返回值，默认情况下函数返回值为undefined。但构造函数例外，new构造函数在没有return的清空下默认返回新创建的对象。
+没有显式定义返回值，默认情况下函数返回值为undefined。但构造函数例外，new构造函数在没有return的情况下默认返回新创建的对象。
 
 但是，在有显示返回值的情况下，如果**返回值为基本数据类型**（string，number，null，undefined，Boolean、symbol），返回值仍然是**新创建的对象**。
 

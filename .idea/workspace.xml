@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
-      <change afterPath="$PROJECT_DIR$/docs/es6/Symbol的使用.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/es6/ES6扩展.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docs/html/浏览器渲染过程.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/components/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/components/text.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vuepress/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/es6/Proxy.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/Proxy.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/es6/Reflect.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/es6/Reflect.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/html/html前端面试题.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/html前端面试题.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/html/前端安全.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/html/前端安全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/arguments.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/arguments.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/js/new操作符做了什么.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/js/new操作符做了什么.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/network/三次握手四次挥手.md" beforeDir="false" afterPath="$PROJECT_DIR$/docs/network/三次握手四次挥手.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -42,8 +46,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="171">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -73,9 +77,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/js/浅拷贝和深拷贝.md" />
-        <option value="$PROJECT_DIR$/docs/css/css动画.md" />
-        <option value="$PROJECT_DIR$/docs/vue/v-show和v-if的区别.md" />
         <option value="$PROJECT_DIR$/docs/css/css面试题.md" />
         <option value="$PROJECT_DIR$/docs/html/html基础.md" />
         <option value="$PROJECT_DIR$/docs/js/手写实现find、filter、reduce等数组方法.md" />
@@ -89,7 +90,6 @@
         <option value="$PROJECT_DIR$/docs/js/数组的方法.md" />
         <option value="$PROJECT_DIR$/docs/js/闭包.md" />
         <option value="$PROJECT_DIR$/docs/css/css基础.md" />
-        <option value="$PROJECT_DIR$/docs/html/html前端面试题.md" />
         <option value="$PROJECT_DIR$/docs/js/JS中的call()和apply().md" />
         <option value="$PROJECT_DIR$/docs/html/http和https.md" />
         <option value="$PROJECT_DIR$/docs/js/排序算法.md" />
@@ -104,13 +104,10 @@
         <option value="$PROJECT_DIR$/.vuepress/components/TabBar.vue" />
         <option value="$PROJECT_DIR$/docs/css/CSS3渐变.md" />
         <option value="$PROJECT_DIR$/docs/vue/vue的响应式原理.md" />
-        <option value="$PROJECT_DIR$/docs/js/new操作符做了什么.md" />
         <option value="$PROJECT_DIR$/docs/js/继承.md" />
         <option value="$PROJECT_DIR$/docs/js/数组扁平化.md" />
-        <option value="$PROJECT_DIR$/docs/network/三次握手四次挥手.md" />
         <option value="$PROJECT_DIR$/docs/network/TCP与UDP.md" />
         <option value="$PROJECT_DIR$/docs/js/防抖和节流.md" />
-        <option value="$PROJECT_DIR$/docs/html/前端安全.md" />
         <option value="$PROJECT_DIR$/docs/react/react-router的基本使用.md" />
         <option value="$PROJECT_DIR$/docs/react/redux.md" />
         <option value="$PROJECT_DIR$/docs/applet/微信小程序this.setData注意事项.md" />
@@ -121,8 +118,15 @@
         <option value="$PROJECT_DIR$/docs/es6/Proxy.md" />
         <option value="$PROJECT_DIR$/docs/vue/axios的使用.md" />
         <option value="$PROJECT_DIR$/docs/es6/Reflect.md" />
-        <option value="$PROJECT_DIR$/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/es6/Symbol的使用.md" />
+        <option value="$PROJECT_DIR$/docs/network/三次握手四次挥手.md" />
+        <option value="$PROJECT_DIR$/docs/js/new操作符做了什么.md" />
+        <option value="$PROJECT_DIR$/docs/html/前端安全.md" />
+        <option value="$PROJECT_DIR$/docs/html/html前端面试题.md" />
+        <option value="$PROJECT_DIR$/docs/html/浏览器渲染过程.md" />
+        <option value="$PROJECT_DIR$/docs/js/arguments.md" />
+        <option value="$PROJECT_DIR$/docs/es6/ES6扩展.md" />
+        <option value="$PROJECT_DIR$/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/.vuepress/components/text.html" />
       </list>
     </option>
@@ -133,7 +137,7 @@
     <other-services-enabled>true</other-services-enabled>
     <auto-save>true</auto-save>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="715" />
     <option name="width" value="1200" />
     <option name="height" value="1040" />
@@ -146,8 +150,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -182,10 +184,30 @@
               <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="es6" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -195,7 +217,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.vuepress/public" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docs/es6" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
@@ -203,19 +225,19 @@
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\ideaProject\my-blog\docs\es6" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public\react-demo" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\components" />
+      <recent name="G:\ideaProject\my-blog\.vuepress\public\components\swiper" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\ideaProject\my-blog\docs\es6" />
       <recent name="G:\ideaProject\my-blog\docs\vue" />
       <recent name="G:\ideaProject\my-blog\.vuepress\components\swiper" />
       <recent name="G:\ideaProject\my-blog\docs" />
       <recent name="G:\ideaProject\my-blog\blogs" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\ideaProject\my-blog\.vuepress\public" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public\react-demo" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\components" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public\components\swiper" />
-      <recent name="G:\ideaProject\my-blog\.vuepress\public\felx" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -347,7 +369,8 @@
       <workItem from="1606917388683" duration="1798000" />
       <workItem from="1606997522952" duration="4396000" />
       <workItem from="1607092552164" duration="24453000" />
-      <workItem from="1607230594703" duration="4006000" />
+      <workItem from="1607230594703" duration="4335000" />
+      <workItem from="1607355435984" duration="4046000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -423,7 +446,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="416688000" />
+    <option name="totallyTimeSpent" value="421063000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,7 +460,7 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.24865952" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.25201073" />
       <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2077748" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -529,46 +552,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/js/闭包.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1045">
-            <caret line="55" column="35" selection-start-line="55" selection-start-column="35" selection-end-line="55" selection-end-column="35" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/css基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1197">
-            <caret line="63" column="60" selection-start-line="63" selection-start-column="60" selection-end-line="63" selection-end-column="60" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/事件委托原理及实现.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="456">
-            <caret line="24" column="33" selection-start-line="24" selection-start-column="33" selection-end-line="24" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/排序算法.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="309">
-            <caret line="187" selection-start-line="187" selection-end-line="187" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/html/http和https.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -606,16 +589,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="1083">
             <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/html/html前端面试题.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1729">
-            <caret line="91" column="15" selection-start-line="91" selection-start-column="15" selection-end-line="91" selection-end-column="15" />
           </first_editor>
           <second_editor />
         </state>
@@ -742,16 +715,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/new操作符做了什么.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="17" selection-start-line="1" selection-start-column="17" selection-end-line="1" selection-end-column="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/JS类型转换.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -797,16 +760,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="171">
             <caret line="60" column="7" selection-start-line="60" selection-start-column="7" selection-end-line="60" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/html/前端安全.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="893">
-            <caret line="47" column="53" selection-start-line="47" selection-start-column="53" selection-end-line="47" selection-end-column="53" />
           </first_editor>
           <second_editor />
         </state>
@@ -882,16 +835,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/network/三次握手四次挥手.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="912">
-            <caret line="48" selection-start-line="48" selection-end-line="48" selection-end-column="72" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/JS执行上下文和作用域.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -945,10 +888,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
-          <caret line="110" column="27" selection-start-line="110" selection-start-column="27" selection-end-line="110" selection-end-column="27" />
+    <entry file="file://$PROJECT_DIR$/docs/es6/Symbol的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="81">
+            <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/network/三次握手四次挥手.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="266">
+            <caret line="77" column="20" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/new操作符做了什么.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="233">
+            <caret line="34" column="58" selection-start-line="34" selection-start-column="58" selection-end-line="34" selection-end-column="58" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/html/前端安全.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/html/html前端面试题.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="418">
+            <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/html/浏览器渲染过程.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="309">
+            <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/arguments.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            <folding>
+              <element signature="n#!!doc" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/js/BOM.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
         </state>
       </provider>
     </entry>
@@ -962,11 +979,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/es6/Symbol的使用.md">
+    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="111" column="22" selection-start-line="111" selection-start-column="22" selection-end-line="111" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/es6/ES6扩展.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="81">
-            <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <first_editor relative-caret-position="-2066">
+            <caret line="16" column="45" lean-forward="true" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
           </first_editor>
           <second_editor />
         </state>
@@ -974,8 +998,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+        <state relative-caret-position="171">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
         </state>
       </provider>
     </entry>
