@@ -135,6 +135,7 @@ module.exports = {
             "js/JS中的栈和堆",
             "js/JS类型转换",
             "js/数组的方法",
+            "js/数组去重",
             "js/JS中的call()和apply()",
             "js/arguments",
             "js/DOM",

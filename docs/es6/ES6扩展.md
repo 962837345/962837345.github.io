@@ -205,3 +205,87 @@ Math.trunc() // NaN
 Math.trunc(undefined) // NaN
 ```
 
+## 数组的空位
+
+数组的空位指，数组的某一个位置没有任何值。比如，`Array`构造函数返回的数组都是空位。
+
+```js
+Array(3) // [, , ,]
+```
+
+::: tip
+
+空位不是`undefined`，一个位置的值等于`undefined`,依然是有值的。空位是没有任何值，`in`运算符可以说明这一点
+
+```js
+0 in [undefined, undefined, undefined] // true
+0 in [, , ,] // false
+```
+
+:::
+
+在ES5中
+
+* `forEach()`,`filter()`,`reduce()`,`every()`和`some()`都会跳过空位
+* `map()`会跳过空位，但会保留这个值
+* `join()`和`toString()`会将空位视为`undefined`，而`undefined`和`null`会被处理成空字符串
+
+ES6则是明确将空位转为`undefined`
+
+`Array.from`方法会将数组的空位，转为`undefined`，也就是说，这个方法不会忽略空位
+
+```js
+Array.from(['a',,'b']) // ["a", undefined, "b"]
+```
+
+扩展运算符(`...`)也会将空位转为`undefined`
+
+```js
+[...['a',,'b']] // ["a", undefined, "b"]
+```
+
+`copyWithin()`会连空位一起拷贝
+
+```js
+[,'a','b',,].copyWith(2,0) // [empty, "a", empty, "a"]
+```
+
+`fill()`会将空位视为正常的数组位置
+
+```js
+new Array(3).fill('a') // ['a', 'a', 'a']
+```
+
+`for...of`循环也会遍历空位
+
+```js
+const arr = [1,,2,,3]
+for(let i of arr){
+    console.log(i)
+}
+// 1
+// undefined
+// 2
+// undefined
+// 3
+```
+
+`entries()`、`keys()`、`values()`、`find()`和`findIndex()`会将空位处理成`undefined`
+
+```js
+// entries()
+[...[, 'a'].entries()] // [0, undefined] [1, 'a']
+
+// keys()
+[...[, 'a'].keys()] // [0, 1]
+
+// values()
+[...[, 'a'].values()] // [undefined, 'a']
+
+// find()
+[, 'a'].find(x => true) // undefined
+
+// findIndex()
+[, 'a'].findIndex(x => true) // 0
+```
+
