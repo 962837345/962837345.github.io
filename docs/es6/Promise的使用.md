@@ -106,3 +106,75 @@ Promise.all = function (promise) {
 参数跟Promise.all()一样，区别在于Promise.race()当其中某个一个实例率先改变状态就传递对应实例的返回值
 
 Promise.all()和Promise.race()原理可以理解为&&(或)和||(与)
+
+## Promise的简单实现
+```js
+class MyPromise{
+  constructor(fn){
+    this.state = 'pending'
+    this.callbacks = []
+    try{
+      fn.call(this, this.resolve.bind(this), this.reject.bind(this))
+    }catch (e) {
+      this.value = e
+      this.reject.call(this, e)
+    }
+  }
+
+  resolve(value){
+    this.state = 'fulfilled'
+    this.value = value
+    this.run()
+  }
+
+  reject(value){
+    this.state = 'rejected'
+    this.value = value
+    this.run()
+  }
+
+  then(onFulFilled, onRejected){
+    return new MyPromise((resolve, reject) => {
+      this.handle({
+        onFulFilled,
+        onRejected,
+        resolve,
+        reject
+      })
+    })
+  }
+
+  catch(onRejected){
+    this.state = 'rejected'
+    return this.then(undefined, onRejected)
+  }
+
+  run(){
+    setTimeout(() =>{
+      this.callbacks.forEach(callback => {
+        this.handle(callback)
+      })
+    }, 0)
+  }
+
+  handle(callback){
+    if(this.callbacks.length === 0){
+      this.callbacks.push(callback)
+      return
+    }
+    let fn = this.state === 'fulfilled' ? callback.onFulFilled : callback.onRejected
+    if(!fn){
+      fn = this.state === 'fulfilled' ? callback.resolve : callback.reject
+      fn(this.value)
+      return
+    }
+    try{
+      let res = fn(this.value)
+      callback.resolve(res)
+    }catch (e) {
+      this.value = e
+      callback.reject(e)
+    }
+  }
+}
+```
