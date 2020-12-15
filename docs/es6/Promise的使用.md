@@ -8,35 +8,6 @@ categories:
  - 前端笔记 
 ---
 
-## 使用Promise解决异步问题
-```vue
-<template>
-  <el-button @click="clickButton">点击我</el-button>
-  <span style="margin-left: 50px"></span>
-</template>
-
-<script>
-  export default {
-    data() {
-      return {
-        num: 0
-      }
-    },
-    methods: {
-      clickButton() {
-        new Promise(resolve => {
-          setTimeout(() => {
-            resolve()
-          },500)
-        }).then(() => {
-          this.num ++;
-        })
-      }
-    }
-  }
-</script>
-```
-
 ## Promise.all()
 当所有请求都响应后再对数据进行处理可以使用Promise.all()
 
@@ -113,6 +84,7 @@ class MyPromise{
   constructor(fn){
     this.state = 'pending'
     this.callbacks = []
+    this.done = false
     try{
       fn.call(this, this.resolve.bind(this), this.reject.bind(this))
     }catch (e) {
@@ -122,12 +94,16 @@ class MyPromise{
   }
 
   resolve(value){
+    if(this.done) return
+    this.done = true
     this.state = 'fulfilled'
     this.value = value
     this.run()
   }
 
   reject(value){
+    if(this.done) return
+    this.done = true
     this.state = 'rejected'
     this.value = value
     this.run()

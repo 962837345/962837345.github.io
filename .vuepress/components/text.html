@@ -14,26 +14,28 @@
       constructor(fn){
         this.state = 'pending'
         this.callbacks = []
+        this.done = false
         try{
           fn.call(this, this.resolve.bind(this), this.reject.bind(this))
-        }catch (e) {
+        }catch(e){
           this.value = e
           this.reject.call(this, e)
         }
       }
-
       resolve(value){
+        if(this.done) return
+        this.done = true
         this.state = 'fulfilled'
         this.value = value
         this.run()
       }
-
       reject(value){
+        if(this.done) return
+        this.done = true
         this.state = 'rejected'
         this.value = value
         this.run()
       }
-
       then(onFulFilled, onRejected){
         return new MyPromise((resolve, reject) => {
           this.handle({
@@ -44,20 +46,17 @@
           })
         })
       }
-
       catch(onRejected){
         this.state = 'rejected'
         return this.then(undefined, onRejected)
       }
-
       run(){
-        setTimeout(() =>{
+        setTimeout(() => {
           this.callbacks.forEach(callback => {
             this.handle(callback)
           })
-        }, 0)
+        },0)
       }
-
       handle(callback){
         if(this.callbacks.length === 0){
           this.callbacks.push(callback)
@@ -85,8 +84,6 @@
 
     p.then(res => {
       console.log(res)
-    }, err => {
-      console.log(err,222)
     })
   </script>
 </html>
