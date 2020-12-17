@@ -10,80 +10,121 @@
   <div id="app"></div>
 </body>
   <script>
-    class MyPromise{
-      constructor(fn){
-        this.state = 'pending'
-        this.callbacks = []
-        this.done = false
-        try{
-          fn.call(this, this.resolve.bind(this), this.reject.bind(this))
-        }catch(e){
-          this.value = e
-          this.reject.call(this, e)
+    const PENDING = "pending";
+    const FULFILLED = "fulfilled";
+    const REJECTED = "rejected";
+    class MyPromise {
+      constructor(fn) {
+        this.state = PENDING;
+        this.value = null;
+        this.reason = null;
+        this.onFulfillCallbacks = [];
+        this.onRejectCallbacks = [];
+        const resolve = (value) => {
+          if (this.state !== PENDING) return;
+          this.state = FULFILLED;
+          this.value = value;
+          setTimeout(() => {
+            this.onFulfillCallbacks.forEach((callback) => callback());
+          }, 0);
+        };
+        const reject = (reason) => {
+          if (this.state !== PENDING) return;
+          this.state = REJECTED;
+          this.reason = reason;
+          setTimeout(() => {
+            this.onRejectCallbacks.forEach((callback) => callback());
+          }, 0);
+        };
+        try {
+          fn(resolve, reject);
+        } catch (e) {
+          reject(e);
         }
       }
-      resolve(value){
-        if(this.done) return
-        this.done = true
-        this.state = 'fulfilled'
-        this.value = value
-        this.run()
+      then(onFulfilled, onRejected) {
+        let promise =  new MyPromise((resolve, reject) => {
+          onFulfilled = onFulfilled ? onFulfilled : resolve
+          onRejected = onRejected ? onRejected : reject
+          if (this.state === FULFILLED) {
+            setTimeout(() => {
+              try {
+                const result = onFulfilled(this.value);
+                resolvePromise(promise, result, resolve, reject)
+              }catch (e) {
+                reject(e)
+              }
+            }, 0)
+          } else if (this.state === REJECTED) {
+            setTimeout(() => {
+              try {
+                const result = onRejected(this.reason);;
+                resolvePromise(promise, result, resolve, reject)
+              }catch (e) {
+                reject(e)
+              }
+            }, 0)
+          } else if (this.state === PENDING) {
+            this.onFulfillCallbacks.push(() => {
+              const result = onFulfilled(this.value);
+              resolvePromise(promise, result, resolve, reject)
+            });
+            this.onRejectCallbacks.push(() => {
+              const result = onRejected(this.reason);
+              resolvePromise(promise, result, resolve, reject)
+            });
+          }
+        });
+        return promise
       }
-      reject(value){
-        if(this.done) return
-        this.done = true
-        this.state = 'rejected'
-        this.value = value
-        this.run()
-      }
-      then(onFulFilled, onRejected){
-        return new MyPromise((resolve, reject) => {
-          this.handle({
-            onFulFilled,
-            onRejected,
-            resolve,
-            reject
-          })
-        })
-      }
-      catch(onRejected){
-        this.state = 'rejected'
-        return this.then(undefined, onRejected)
-      }
-      run(){
-        setTimeout(() => {
-          this.callbacks.forEach(callback => {
-            this.handle(callback)
-          })
-        },0)
-      }
-      handle(callback){
-        if(this.callbacks.length === 0){
-          this.callbacks.push(callback)
-          return
-        }
-        let fn = this.state === 'fulfilled' ? callback.onFulFilled : callback.onRejected
-        if(!fn){
-          fn = this.state === 'fulfilled' ? callback.resolve : callback.reject
-          fn(this.value)
-          return
-        }
-        try{
-          let res = fn(this.value)
-          callback.resolve(res)
-        }catch (e) {
-          this.value = e
-          callback.reject(e)
-        }
+      catch(onRejected) {
+        this.then(undefined, onRejected)
       }
     }
-    const p = new MyPromise((resolve, reject) => {
-      console.log(999)
-      resolve(123)
-    })
 
+    function resolvePromise(promise, result, resolve, reject){
+      if(promise === result){
+        return reject(new TypeError('Chaining cycle detected for promise #<MyPromise>'))
+      }
+      let called = false
+      if(result instanceof MyPromise){
+        try{
+          let then = result.then
+          if(typeof then === 'function'){
+            then.call(result, newResult => {
+              if(called) return
+              called = true
+              resolvePromise(promise, newResult, resolve, reject)
+            }, e => {
+              if(called) return
+              called = true
+              reject(e)
+            })
+          }else{
+            resolve(result)
+          }
+        }catch (e) {
+          if(called) return
+          called = true
+          reject(e)
+        }
+      }else{
+        resolve(result)
+      }
+    }
+
+    const p = new MyPromise((resolve, reject) => {
+        setTimeout(() => {
+          resolve(123)
+        })
+    });
     p.then(res => {
       console.log(res)
-    })
+      return new MyPromise((resolve) => {
+        resolve(321)
+      })
+    }).then(res => {
+      console.log(res)
+    });
   </script>
 </html>
