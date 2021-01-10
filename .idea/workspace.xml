@@ -2,8 +2,219 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f7677c5b-78af-46b1-8f4a-d0f229a00767" name="默认更改列表" comment="change title">
+      <change afterPath="$PROJECT_DIR$/.vuepress/components/SvgPanel.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vuepress/components/text.html" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/components/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vuepress/styles/palette.styl" beforeDir="false" afterPath="$PROJECT_DIR$/.vuepress/styles/palette.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/css/0.styles.a875ad7a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/img/home-bg.8e509a21.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/1.0aa30d5b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/10.7870c02f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/11.c04fa704.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/12.d84ed31b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/13.f8d875d3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/14.bbc4d20e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/15.3be2ab80.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/16.8c1edc3f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/17.8d3eced3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/18.a32ee24f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/19.be0d713b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/20.1634da25.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/21.0d5be3d5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/22.f9b0bb56.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/23.3db298f9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/24.bcb7293c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/25.67b1fd95.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/26.c84b9c67.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/27.4b1d740f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/28.268c0b8a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/29.3ecc80fe.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/3.dae4c4b4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/30.0feb5d48.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/31.eca698f0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/32.e08edfc4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/33.e962fa6b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/34.e421a869.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/35.286b2b45.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/36.0ddf7adc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/37.601a79db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/38.2ce51aea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/39.753bce7f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/4.7c0f494d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/40.c458557b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/41.35b19446.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/42.1d9492f9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/43.66203a28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/44.65e3096d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/45.92c47e63.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/46.f81be79b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/47.7b779bc4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/48.353abf1c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/49.fd6343cc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/5.09ab7326.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/50.83543db5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/51.34eea835.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/52.156ad483.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/53.698f6d7b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/54.a2604322.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/55.67c07e1d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/56.e4233a78.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/57.3422a3e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/58.bf766d18.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/59.87d5d71d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/6.099290ab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/60.481a3825.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/61.09f3a778.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/62.2d166bec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/63.d89d401a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/64.5130f397.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/65.1ed912b4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/66.e254cf66.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/67.45086503.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/68.fb82df3d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/69.2def4114.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/7.931aa8b2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/70.78df4ed1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/71.79606a0d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/72.7c81b8f4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/73.56ae47bf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/74.1d877629.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/75.55035047.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/76.b8f301cd.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/77.2b78077f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/78.2c149ac1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/79.ad080141.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/8.70ea6046.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/80.8e10f636.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/81.259ae178.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/82.7c08630e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/83.e6f8962a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/84.ac7138de.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/85.79163643.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/86.d7d72210.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/87.6034dbc8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/88.6211107c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/89.2fed8e5f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/9.af2c1d91.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/90.0b97bcb9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/91.8640cfd4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/92.e86f29ac.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/93.c22050e9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/94.6931167e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/95.55f2769f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/app.abc0c553.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/other/guide.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/other/guide.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/project/keep记账本.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/project/keep记账本.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/project/moguMall.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/project/moguMall.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/project/硅谷直聘.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/project/硅谷直聘.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/reflections/MongoDB.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/reflections/MongoDB.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/reflections/git-commit的回滚.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/reflections/git-commit的回滚.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/reflections/git基础命令.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/reflections/git基础命令.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/reflections/vuepress的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/reflections/vuepress的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/blogs/reflections/将vuepress部署到github或gitee.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/blogs/reflections/将vuepress部署到github或gitee.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/5/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/5/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/前端笔记/page/7/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/前端笔记/page/7/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/博客随笔/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/博客随笔/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/categories/项目实践/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/categories/项目实践/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/applet/微信小程序this.setData注意事项.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/applet/微信小程序this.setData注意事项.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/components/better-scroll的使用与封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/components/better-scroll的使用与封装.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/components/折叠面板的实现与封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/components/折叠面板的实现与封装.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/components/轮播图的实现与封装.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/components/轮播图的实现与封装.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/BFC.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/BFC.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/CSS3渐变.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/CSS3渐变.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/css优化.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/css优化.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/css动画.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/css动画.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/css基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/css基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/css面试题.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/css面试题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/css/flex布局.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/css/flex布局.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/ES6扩展.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/ES6扩展.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/Object.assign的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/Object.assign的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/Promise的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/Promise的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/Proxy.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/Proxy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/Reflect.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/Reflect.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/Symbol的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/Symbol的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/let和const.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/let和const.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/es6/解构.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/es6/解构.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/SEO优化.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/SEO优化.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/html前端面试题.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/html前端面试题.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/html基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/html基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/http和https.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/http和https.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/前端安全.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/前端安全.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/多页面应用跨页面通信.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/多页面应用跨页面通信.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/强缓存和协商缓存.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/强缓存和协商缓存.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/浏览器渲染过程.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/浏览器渲染过程.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/html/跨域.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/html/跨域.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/BOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/BOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/DOM.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/DOM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/JS中的call()和apply().html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/JS中的call()和apply().html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/JS中的栈和堆.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/JS中的栈和堆.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/JS执行上下文和作用域.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/JS执行上下文和作用域.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/JS的关键字.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/JS的关键字.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/arguments.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/arguments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/js类型转换.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/js类型转换.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/new操作符做了什么.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/new操作符做了什么.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/严格模式.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/严格模式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/事件委托原理及实现.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/事件委托原理及实现.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/判断是否通过new调用构造函数.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/判断是否通过new调用构造函数.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/原型对象.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/原型对象.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/手写实现find、filter、reduce等数组方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/手写实现find、filter、reduce等数组方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/拖拽.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/拖拽.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/排序算法.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/排序算法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/数组去重.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/数组去重.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/数组扁平化.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/数组扁平化.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/数组的方法.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/数组的方法.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/浅拷贝和深拷贝.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/浅拷贝和深拷贝.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/继承.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/继承.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/闭包.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/闭包.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/js/防抖和节流.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/js/防抖和节流.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/network/TCP与UDP.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/network/TCP与UDP.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/network/三次握手四次挥手.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/network/三次握手四次挥手.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/react/react-router的基本使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/react/react-router的基本使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/react/react基础.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/react/react基础.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/react/react生命周期.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/react/react生命周期.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/react/redux.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/react/redux.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/react/使用antd.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/react/使用antd.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/react/组件间的通信.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/react/组件间的通信.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/DOM和虚拟DOM的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/DOM和虚拟DOM的区别.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/axios的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/axios的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/v-model的使用及实现原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/v-model的使用及实现原理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/v-show和v-if的区别.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/v-show和v-if的区别.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/vue-router的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/vue-router的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/vuex的使用.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/vuex的使用.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/vue中的通信.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/vue中的通信.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/vue/vue的响应式原理.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/vue/vue的响应式原理.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/docs/webpack/webpack的基本配置.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/docs/webpack/webpack的基本配置.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/Ant Design/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/Ant Design/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/ES6/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/ES6/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/HTML/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/HTML/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/JS/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/JS/page/2/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/page/2/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/JS/page/3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/page/3/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/JS/page/4/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/JS/page/4/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/MongoDB/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/MongoDB/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/Project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/Project/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/React/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/React/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/VuePress/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/VuePress/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/better-scroll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/better-scroll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/css/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/css/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/git/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/git/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/redux/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/redux/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/vue-router/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue-router/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/vue/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vue/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/vuex/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/vuex/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/webpack/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/webpack/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/微信小程序/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/微信小程序/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/tag/网络/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/tag/网络/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/timeline/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/timeline/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -34,17 +245,7 @@
     <favorites_list name="my-blog" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,7 +263,12 @@
       <find>bg</find>
       <find>BgAnimation</find>
       <find>callbacks</find>
+      <find>242424</find>
+      <find>$textColor</find>
     </findStrings>
+    <dirStrings>
+      <dir>G:\ideaProject\my-blog</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,12 +276,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/docs/js/手写实现find、filter、reduce等数组方法.md" />
-        <option value="$PROJECT_DIR$/docs/vue/dom和虚拟dom的区别.md" />
-        <option value="$PROJECT_DIR$/docs/js/js类型转换.md" />
-        <option value="$PROJECT_DIR$/docs/vue/DOM和虚拟DOM的区别.md" />
-        <option value="$PROJECT_DIR$/docs/html/强制缓存和协商缓存.md" />
-        <option value="$PROJECT_DIR$/docs/html/多页面应用跨页面通信.md" />
         <option value="$PROJECT_DIR$/docs/js/事件委托原理及实现.md" />
         <option value="$PROJECT_DIR$/docs/js/JS中的栈和堆.md" />
         <option value="$PROJECT_DIR$/docs/js/闭包.md" />
@@ -118,9 +318,15 @@
         <option value="$PROJECT_DIR$/docs/es6/ES6扩展.md" />
         <option value="$PROJECT_DIR$/docs/js/数组的方法.md" />
         <option value="$PROJECT_DIR$/docs/js/数组去重.md" />
-        <option value="$PROJECT_DIR$/.vuepress/config.js" />
         <option value="$PROJECT_DIR$/docs/es6/Promise的使用.md" />
         <option value="$PROJECT_DIR$/.vuepress/components/text.html" />
+        <option value="$PROJECT_DIR$/.vuepress/config.js" />
+        <option value="$PROJECT_DIR$/node_modules/vuepress-theme-reco/styles/palette.styl" />
+        <option value="$PROJECT_DIR$/node_modules/vuepress-theme-reco/components/Mode/modeOptions.js" />
+        <option value="$PROJECT_DIR$/.vuepress/styles/palette.styl" />
+        <option value="$PROJECT_DIR$/docs/components/svg.js.md" />
+        <option value="$PROJECT_DIR$/node_modules/@svgdotjs/svg.js/src/utils/adopter.js" />
+        <option value="$PROJECT_DIR$/.vuepress/components/SvgPanel.vue" />
       </list>
     </option>
   </component>
@@ -144,7 +350,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -155,34 +360,19 @@
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name=".vuepress" type="462c0819:PsiDirectoryNode" />
+              <item name="docs" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="blogs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="my-blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="my-blog" type="462c0819:PsiDirectoryNode" />
-              <item name="docs" type="462c0819:PsiDirectoryNode" />
-              <item name="es6" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,8 +446,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.build" />
-        <item itemvalue="JavaScript Debug.text.html" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="JavaScript Debug.text.html" />
       </list>
     </recent_temporary>
   </component>
@@ -353,7 +543,9 @@
       <workItem from="1607830505559" duration="871000" />
       <workItem from="1607947443124" duration="18698000" />
       <workItem from="1608380196960" duration="9799000" />
-      <workItem from="1609495637308" duration="218000" />
+      <workItem from="1609495637308" duration="910000" />
+      <workItem from="1610284289283" duration="2236000" />
+      <workItem from="1610288948215" duration="6056000" />
     </task>
     <task id="LOCAL-00001" summary="commit public to master">
       <created>1595052711492</created>
@@ -429,7 +621,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="459342000" />
+    <option name="totallyTimeSpent" value="468313000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -443,13 +635,13 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49590164" visible="true" weight="0.27949062" />
-      <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.2077748" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.28753352" />
+      <window_info id="Structure" order="1" sideWeight="0.5074627" side_tool="true" weight="0.28753352" />
       <window_info id="设计器" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" sideWeight="0.50409836" side_tool="true" weight="0.2077748" />
+      <window_info id="Favorites" order="6" sideWeight="0.505597" side_tool="true" weight="0.28753352" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
@@ -458,9 +650,9 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32577905" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.24220963" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2407932" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -535,135 +727,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/assets/img/swiper3.1ecf8331.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/assets/img/swiper4.2bda2f72.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/html/多页面应用跨页面通信.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1083">
-            <caret line="57" column="27" selection-start-line="57" selection-start-column="27" selection-end-line="57" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/html/html基础.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1254">
-            <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/project/keep记账本.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="475">
-            <caret line="25" selection-start-line="25" selection-end-line="25" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/判断是否通过new调用构造函数.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="252">
-            <caret line="37" column="6" lean-forward="true" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/flex布局.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2774">
-            <caret line="146" column="7" selection-start-line="146" selection-start-column="7" selection-end-line="146" selection-end-column="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/css/渐变背景动画.md" />
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18434" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/components/BgAnimation.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/vue/vue的响应式原理.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-608">
-            <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/components/TabBar.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="54" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/es6/Object.assign的使用.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="266">
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/project/moguMall.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="361">
-            <caret line="19" selection-start-line="19" selection-end-line="19" selection-end-column="83" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/继承.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="19">
-            <caret line="1" column="9" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/docs/js/JS类型转换.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret selection-end-line="7" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/network/TCP与UDP.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -948,35 +1011,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="137" column="22" lean-forward="true" selection-start-line="137" selection-start-column="22" selection-end-line="137" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docs/js/数组扁平化.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="19">
             <caret line="1" column="12" lean-forward="true" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="12" />
           </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blogs/other/guide.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-855" />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
           <second_editor />
         </state>
       </provider>
@@ -991,10 +1031,146 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/_is-svg@3.0.0@is-svg/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://G:/svg.js/svg.js-3.0.16/src/svg.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.vuepress/components/text.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="96" column="43" selection-start-line="96" selection-start-column="43" selection-end-line="96" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/better-scroll的使用与封装.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <caret selection-end-line="7" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/components/CollapseView.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/deploy.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/reflections/vuepress的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="-1672" />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vuepress-theme-reco/styles/palette.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vuepress-theme-reco/components/Mode/modeOptions.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-179">
+          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="209">
+            <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/折叠面板的实现与封装.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="171">
+            <caret line="9" selection-start-line="9" selection-end-line="11" selection-end-column="13" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/styles/palette.styl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="20" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@svgdotjs/svg.js/src/utils/adopter.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@svgdotjs/svg.js/src/svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docs/components/svg.js的使用.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="152">
+            <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blogs/other/guide.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="228">
+            <caret line="12" column="49" lean-forward="true" selection-start-line="12" selection-start-column="49" selection-end-line="12" selection-end-column="49" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.vuepress/components/SvgPanel.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="22" column="58" lean-forward="true" selection-start-line="22" selection-start-column="58" selection-end-line="22" selection-end-column="58" />
         </state>
       </provider>
     </entry>
