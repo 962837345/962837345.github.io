@@ -122,3 +122,16 @@ Array.prototype.MyReduce = function (fn, obj) {
     return obj;
 }
 ```
+
+## 使用reduce实现map
+
+```js
+// reduceToMap
+Array.prototype.reduceToMap = function(fn){
+  return this.reduce((pre, cur) => {
+	pre.push(fn(cur))
+    return pre
+  }, [])
+}
+```
+
