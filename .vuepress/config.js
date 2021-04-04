@@ -163,7 +163,8 @@ module.exports = {
             "css/css动画",
             "css/CSS3渐变",
             "css/BFC",
-            "css/css面试题"
+            "css/css面试题",
+            "css/css盒模型"
           ]
         },
         {
@@ -176,7 +177,8 @@ module.exports = {
         {
           "title": "webpack",
           "children": [
-            "webpack/webpack的基本配置"
+            "webpack/webpack的基本配置",
+            "webpack/webpack中loader和plugin的区别"
           ]
         },
         {

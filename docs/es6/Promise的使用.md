@@ -47,7 +47,7 @@ export default {
 ## Promise.all()的原理实现
 Promise.all()返回的是一个Promise实例
 ```js
-Promise.all = function (promise) {
+static all = (promises) {
     return new Promise((resolve, reject) => {
         let index = 0;
         let result = [];
@@ -78,12 +78,54 @@ Promise.all = function (promise) {
 
 Promise.all()和Promise.race()原理可以理解为&&(或)和||(与)
 
+```js
+static race(promises){
+  return new Promise((resolve, reject) => {
+		for(let i = 0; i < promises.length; i++){
+      Promise.resolve(this[i]).then(res => {
+        return resolve(res)
+      }, reason => {
+        return reject(reason)
+      })
+    }
+  })
+}
+```
+
+
+
 ## Promise的简单实现
 ```js
 const PENDING = "pending";
 const FULFILLED = "fulfilled";
 const REJECTED = "rejected";
 class MyPromise {
+  // resolve静态方法
+  static resolve(value){
+    if(value && value instanceof MyPromise){
+      return value
+    }else if(value && typeof value === 'object' && typeof value.then === 'function'){
+      const then = value.then
+      return new MyPromise(resolve => {
+        then(resolve)
+      })
+    }else if(value){
+      return new MyPromise(resolve => resolve(value))
+    }else{
+      return new MyPromise(resolve => resolve())
+    }
+  }
+	// reject静态方法
+  static reject(reason){
+    if(reason && typeof reason === 'object' && typeof reason.then === 'function'){
+      const then = reason.then
+      return new MyPromise((resolve, reject) => {
+        then(reject)
+      })
+    } else{
+      return new MyPromise((resolve, reject) => reject(value))
+    }
+  }
   constructor(fn) {
     this.state = PENDING;
     this.value = null;
@@ -150,6 +192,15 @@ class MyPromise {
   catch(onRejected) {
     this.then(undefined, onRejected)
   }
+  finally(fn){
+    return this.then(value => {
+      return MyPromise.resolve(fn()).then(() => value)
+    }, err => {
+      return MyPromise.reject(fn()).then(() => {
+        throw err
+      })
+    })
+  }
 }
 
 function resolvePromise(promise, result, resolve, reject){
@@ -184,9 +235,9 @@ function resolvePromise(promise, result, resolve, reject){
 }
 
 const p = new MyPromise((resolve, reject) => {
-    setTimeout(() => {
-      resolve(123)
-    })
+  setTimeout(() => {
+    resolve(123)
+  })
 });
 p.then(res => {
   console.log(res)
@@ -195,5 +246,7 @@ p.then(res => {
   })
 }).then(res => {
   console.log(res)
+}).finally(() => {
+  console.log('finally')
 });
 ```
