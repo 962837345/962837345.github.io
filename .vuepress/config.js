@@ -122,9 +122,9 @@ module.exports = {
             "html/浏览器渲染过程",
             "html/强缓存和协商缓存",
             "html/多页面应用跨页面通信",
-            "html/http和https",
             "html/跨域",
-            "html/前端安全"
+            "html/前端安全",
+            "html/Session和Cookie和Token"
           ]
         },
         {
@@ -170,8 +170,10 @@ module.exports = {
         {
           "title" : "网络",
           "children": [
-              "network/三次握手四次挥手",
-              "network/TCP与UDP"
+            "network/三次握手四次挥手",
+            "network/TCP与UDP",
+            "network/http和https",
+            "network/流量控制和拥塞控制"
           ]
         },
         {
