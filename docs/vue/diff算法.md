@@ -9,7 +9,7 @@ categories:
 
 ## diff 算法流程图
 
-<img style="height: 600px" :src="$withBase('/diff算法流程图.jpg')" alt="diff算法流程图">
+<img style="height: 600px" :src="$withBase('/diffFlowChart.jpg')" alt="diff算法流程图">
 
 ## index.html
 
