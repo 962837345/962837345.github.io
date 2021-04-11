@@ -80,7 +80,8 @@ module.exports = {
             "vue/vuex的使用",
             "vue/axios的使用",
             "vue/vue的响应式原理",
-            "vue/DOM和虚拟DOM的区别"
+            "vue/DOM和虚拟DOM的区别",
+            "vue/diff算法"
           ]
         },
         {
