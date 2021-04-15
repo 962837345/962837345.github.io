@@ -22,8 +22,7 @@ module.exports = {
   "theme": "reco",
   "themeConfig": {
     "subSidebar": 'auto', //在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
-    "nav": [
-      {
+    "nav": [{
         "text": "Home",
         "link": "/",
         "icon": "reco-home"
@@ -31,8 +30,7 @@ module.exports = {
       {
         "text": "Project",
         "icon": "reco-message",
-        "items": [
-          {
+        "items": [{
             "text": "蘑菇商城",
             "link": "http://120.25.234.110"
           },
@@ -54,8 +52,7 @@ module.exports = {
       {
         "text": "Contact",
         "icon": "reco-message",
-        "items": [
-          {
+        "items": [{
             "text": "GitHub",
             "link": "https://github.com/962837345",
             "icon": "reco-github"
@@ -69,8 +66,7 @@ module.exports = {
       }
     ],
     "sidebar": {
-      "/docs/": [
-        {
+      "/docs/": [{
           "title": "Vue",
           "children": [
             "vue/v-model的使用及实现原理",
@@ -99,6 +95,13 @@ module.exports = {
           "title": "Applet",
           "children": [
             "applet/微信小程序this.setData注意事项"
+          ]
+        },
+        {
+          "title": "Python",
+          "children": [
+            "python/python的基本数据类型",
+            "python/python的基本方法"
           ]
         },
         {
@@ -153,7 +156,8 @@ module.exports = {
             "js/判断是否通过new调用构造函数",
             "js/new操作符做了什么",
             "js/数组扁平化",
-            "js/继承"
+            "js/继承",
+            "js/实用的js函数"
           ]
         },
         {
@@ -169,7 +173,7 @@ module.exports = {
           ]
         },
         {
-          "title" : "网络",
+          "title": "网络",
           "children": [
             "network/三次握手四次挥手",
             "network/TCP与UDP",
@@ -205,8 +209,7 @@ module.exports = {
         "text": "Tag"
       }
     },
-    "friendLink": [
-      {
+    "friendLink": [{
         "title": "午后南杂",
         "desc": "Enjoy when you can, and endure when you must.",
         "email": "1156743527@qq.com",
