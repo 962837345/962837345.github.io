@@ -80,8 +80,9 @@ random.sort(key=tackSecond)
 print(random)  # [(4, 1), (2, 2), (1, 3), (3, 4)]
 ```
 
-10. `list.clear()`：清空列表
-11. `list.copy()`: 复制列表
+10. `sorted(key = None, reverse = False)`：与`sort()`的区别是`sorted()`返回一个新的 list
+11. `list.clear()`：清空列表
+12. `list.copy()`: 复制列表
 
 ### 字典的方法
 
