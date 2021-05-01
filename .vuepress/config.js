@@ -104,7 +104,9 @@ module.exports = {
             "python/python的基本方法",
             "python/输入和输出",
             "python/列表推导式",
-            "python/File"
+            "python/File",
+            "python/魔法函数",
+            "python/深入类和对象"
           ]
         },
         {
