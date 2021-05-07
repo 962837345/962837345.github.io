@@ -106,7 +106,8 @@ module.exports = {
             "python/列表推导式",
             "python/File",
             "python/魔法函数",
-            "python/深入类和对象"
+            "python/深入类和对象",
+            "python/自定义序列类"
           ]
         },
         {
