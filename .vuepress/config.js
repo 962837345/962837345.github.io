@@ -107,7 +107,9 @@ module.exports = {
             "python/File",
             "python/魔法函数",
             "python/深入类和对象",
-            "python/自定义序列类"
+            "python/自定义序列类",
+            "python/深入python的set和dict",
+            "python/对象引用、可变性和垃圾回收"
           ]
         },
         {
