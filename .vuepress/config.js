@@ -111,7 +111,9 @@ module.exports = {
           "python/深入python的set和dict",
           "python/对象引用、可变性和垃圾回收",
           "python/元类编程",
-          "python/迭代器和生成器"
+          "python/迭代器和生成器",
+          "python/多线程、多进程和线程池编程",
+          "python/namedtuple"
         ]
       },
       {
