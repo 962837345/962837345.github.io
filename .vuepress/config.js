@@ -113,8 +113,9 @@ module.exports = {
           "python/元类编程",
           "python/迭代器和生成器",
           "python/多线程、多进程和线程池编程",
-          "python/namedtuple",
-          "python/函数的参数"
+          "python/函数的参数",
+          "python/datetime",
+          "python/collections"
         ]
       },
       {
