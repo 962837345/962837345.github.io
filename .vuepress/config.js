@@ -115,7 +115,8 @@ module.exports = {
           "python/多线程、多进程和线程池编程",
           "python/函数的参数",
           "python/datetime",
-          "python/collections"
+          "python/collections",
+          "python/协程"
         ]
       },
       {
