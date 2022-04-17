@@ -120,6 +120,12 @@ module.exports = {
         ]
       },
       {
+        "title": "C++",
+        "children": [
+          "c++/复合类型",
+        ]
+      },
+      {
         "title": "ES6",
         "children": [
           "es6/Promise的使用",
