@@ -123,6 +123,7 @@ module.exports = {
         "title": "C++",
         "children": [
           "c++/复合类型",
+          "c++/const限定符",
         ]
       },
       {
