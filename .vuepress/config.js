@@ -124,6 +124,7 @@ module.exports = {
         "children": [
           "c++/复合类型",
           "c++/const限定符",
+          "c++/typedef、auto和decltype",
         ]
       },
       {
