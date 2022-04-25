@@ -1,4 +1,4 @@
-editor.tabSize---
+---
 title: JS的关键字
 date: 2020-07-24
 tags:

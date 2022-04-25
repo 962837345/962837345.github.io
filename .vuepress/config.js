@@ -126,6 +126,7 @@ module.exports = {
           "c++/const限定符",
           "c++/typedef、auto和decltype",
           "c++/vector",
+          "c++/迭代器",
         ]
       },
       {
