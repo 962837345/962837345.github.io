@@ -127,6 +127,7 @@ module.exports = {
           "c++/typedef、auto和decltype",
           "c++/vector",
           "c++/迭代器",
+          "c++/数组&多维数组",
         ]
       },
       {
