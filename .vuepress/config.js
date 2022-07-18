@@ -128,6 +128,8 @@ module.exports = {
           "c++/vector",
           "c++/迭代器",
           "c++/数组&多维数组",
+          "c++/explicit关键字",
+          "c++/UFunction代理的创建与使用"
         ]
       },
       {
