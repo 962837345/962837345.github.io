@@ -143,6 +143,12 @@ module.exports = {
         ]
       },
       {
+        "title": "数据结构",
+        "children": [
+          "DataStructure/二叉树",
+        ]
+      },
+      {
         "title": "ES6",
         "children": [
           "es6/Promise的使用",

@@ -164,8 +164,8 @@ print(my_dict['a'])  # {}
 ### 结论
 
 1. dict查找的性能远远高于list
-2. 在list种随着list数据的增大，查找时间会增大
-3. 在dict种查找元素不会随着dict的增大而增大
+2. 在list中随着list数据的增大，查找时间会增大
+3. 在dict中查找元素不会随着dict的增大而增大
 
 ### dict基于hash表（set也是，所占空间比dict小）
 
