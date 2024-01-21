@@ -147,6 +147,7 @@ module.exports = {
         "children": [
           "DataStructure/二叉树",
           "DataStructure/堆",
+          "DataStructure/排序算法",
         ]
       },
       {
