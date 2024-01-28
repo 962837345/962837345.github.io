@@ -38,53 +38,36 @@ int &c = b*2; // 错误：不能通过一个非常量的引用指向一个常量
 
 ### 指针和const
 
-* 指向常量的指针
+* 指针常量
+  
+  ```int * const p = &a;```
+  
+  指针指向不能改，指针指向的值可以改（必须初始化）
 
   ```cpp
-  const double pi = 3.14;
-  double *ptr = &pi; // 错误：存在通过ptr指针修改pi的风险
-  const double *cptr = &pi;
-  
-  double dval = 3.14;
-  cptr = &dval; // 正确：但不能通过cptr修改dval的
+  int a = 10, b = 20;
+  int* const p = &a;
+  *p = 15; // 允许修改值
+  p = &b; // 报错
   ```
 
-* const指针：指针是对象，也可以限定为常量（必须初始化）
+* 常量指针
 
-  * 把*放在const之前，说明指针是一个常量
+  ```const int* p = &a;```
 
-  * 不变的是指针本身的值，而非指向的那个值
+  指针指向可以改，指针指向的值不可以改
 
-    ```cpp
-    int n = 0;
-    int *const a = &n;
-    const double pi = 3.14159;
-    const double *const pip = &pi; // 指向常量的常量指针
-    
-    *pip = 2.71; // 错误：试图修改常量pi
-    
-    *a = 1;	// 正确：修改的是n的值，地址还是原来的地址
-    ```
+  ```cpp
+  int a = 10, b = 20;
+  const int* p = &a;
+  *p = 15; // 报错
+  p = &b; // 允许修改值
+  ```
 
-### 顶层const
+* 指向常量的指针常量
 
-* 顶层const：表示变量本身是一个常量
-* 底层const：表示指针所指向的对象是一个const
+  ```const int* const p = &a;```
 
-```cpp
-int i = 0;
-int *const p1 = &i; 		// 顶层
-const int ci = 42; 			// 顶层
-const int *p2 = &ci; 		// 底层
-const int *const p3 = p2; 	// (左：底层)，（右：顶层）
-
-p2 = p3;					// 正确
-
-int *p = p3;				// 错误：存在通过*p修改*p3(const)的风险
-p2 = &i;					// 正确：只是不能通过p2修改i而已
-int &r = ci;				// 错误：存在通过r修改ci(const)的风险
-const int &r2 = i;			// 正确：只是不能通过r2修改i而已
-```
 
 ### constexpr和常量表达式
 
@@ -122,4 +105,54 @@ const int &r2 = i;			// 正确：只是不能通过r2修改i而已
     constexpr int *p1 = &j;			// p1是常量指针，指向变量j
     ```
 
+### Const修饰成员函数
+
+**常函数：**
+
+* 成员函数后加const我们称这个函数为常函数
+* 常函数内不可以修改成员属性
+* 成员属性声明时加关键字`mutable`后,在常函数中依然可以修改
+
+**常对象:**
+
+* 声明对象前加const称该对象为常对象
+* 常对象只能调用常函数
+
+```cpp
+#include <iostream>
+#include <string>
+using namespace std;
+
+class Person 
+{
+public:
+    int a;
+    mutable int b; // 特殊变量，加上mutable，即使在常函数中，也可以修改这个值
     
+    // this指针的本质,是指针常量,指针的指向是不可以修改的
+    // const Person * const this
+    // 在成员函数后面加const,修饰的是this指向，让指针指向的值也不可以改变
+    void ShowPerson() const 
+    {
+        // a = 10;
+        b = 20;
+    }
+};
+
+void test()
+{
+    const Person p; // 常对象
+    p.b = 100;      // b用mutable修饰，可以修改
+    p.ShowPerson(); // 常对象只能调用常函数
+}
+
+
+int main()
+{
+    test();
+
+    system("pause");
+
+    return 0;
+}
+```
