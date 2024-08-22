@@ -2,7 +2,7 @@ module.exports = {
   "title": "渝心",
   "description": "心之所向，身之所行",
   "dest": "public",
-  "base": "/yuxinbuhui/",
+  "base": "",
   "head": [
     [
       "link",
